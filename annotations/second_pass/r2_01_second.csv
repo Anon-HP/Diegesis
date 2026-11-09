@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+3863_22_1__22_2,1,subject-to-subject,medium,moment-to-moment,same office; new man in yellow enters and speaks,claude-sonnet-b
+755_24_4__24_5,1,subject-to-subject,medium,moment-to-moment,gunman then wider view of seated party at table,claude-sonnet-b
+3783_37_1__37_2,1,action-to-action,medium,scene-to-scene,gunman threatened then three minutes later hit; new cowboy,claude-sonnet-b
+956_4_2__4_3,1,scene-to-scene,medium,subject-to-subject,phone call indoors then speedboat with new characters,claude-sonnet-b
+1822_9_4__9_5,1,subject-to-subject,high,,man asks who are you then girl answers,claude-sonnet-b
+211_89_0__89_1,1,action-to-action,medium,scene-to-scene,hero beaten then thrown into cell by Nazi,claude-sonnet-b
+793_42_3__42_4,1,subject-to-subject,medium,moment-to-moment,exchange between leader and hero continues; focus on hero,claude-sonnet-b
+1271_61_5__61_6,1,subject-to-subject,high,,flaming spirit then speaker bowing before Draco-Saki,claude-sonnet-b
+2321_59_0__59_1,1,action-to-action,low,moment-to-moment,splash of plane over blast then plane landing with dialogue,claude-sonnet-b
+2152_2_0__2_1,0,,,,title splash page then story opening not clean consecutive panels,claude-sonnet-b
+1271_7_0__7_1,1,action-to-action,medium,moment-to-moment,heroes run to gravedigger then stand and ask again,claude-sonnet-b
+552_20_1__20_2,1,subject-to-subject,medium,,cops arrive then close on Doug and thug talking,claude-sonnet-b
+123_31_4__31_5,1,action-to-action,medium,moment-to-moment,man asks about Wilbur then sees him leave by back door,claude-sonnet-b
+3751_45_1__45_2,1,subject-to-subject,high,,sculptor smashing statues then cupid crashing through skylight,claude-sonnet-b
+2291_39_2__39_3,0,,,,advertisement not story panels,claude-sonnet-b
+2600_38_3__38_4,1,action-to-action,medium,moment-to-moment,tied boy tips chair to reach fuse,claude-sonnet-b
+1161_33_2__33_3,1,subject-to-subject,medium,action-to-action,ambusher waiting then hero kicks door open,claude-sonnet-b
+2142_33_0__33_1,1,scene-to-scene,medium,subject-to-subject,aerial fight cleared then briefing with major,claude-sonnet-b
+2198_20_3__20_4,1,subject-to-subject,medium,scene-to-scene,hostage hold then two characters Reef and Vara argue,claude-sonnet-b
+3281_33_3__33_4,1,subject-to-subject,medium,,men watching ship fire then hero inside plummeting plane,claude-sonnet-b
+1293_3_0__3_1,1,action-to-action,medium,subject-to-subject,man yells at cat then crawls to pick up book,claude-sonnet-b
+1393_35_1__35_2,1,subject-to-subject,medium,moment-to-moment,customer pleads for credit then shopkeeper replies angrily,claude-sonnet-b
+1977_26_7__26_8,1,subject-to-subject,high,,charging Indians then Wing shooting rifle,claude-sonnet-b
+3951_9_2__9_3,1,moment-to-moment,medium,action-to-action,same two girls same place; dialogue continues,claude-sonnet-b
+684_8_0__8_1,1,action-to-action,medium,subject-to-subject,Moon Man flees then hero runs in pursuit,claude-sonnet-b
+2600_44_2__44_3,1,subject-to-subject,high,,woman speaks then man reacts He what,claude-sonnet-b
+178_28_4__28_5,1,subject-to-subject,medium,,hero creeping with gun then girl appears,claude-sonnet-b
+2488_7_5__8_0,1,scene-to-scene,high,,caption LATER; council camp,claude-sonnet-b
+3693_7_3__7_4,1,subject-to-subject,medium,scene-to-scene,looters with treasure then Diablo spots the jungle girl,claude-sonnet-b
+2486_26_3__26_4,1,scene-to-scene,medium,subject-to-subject,caption SOON; shocked man then climbing man near boat,claude-sonnet-b
+2438_17_1__17_2,1,subject-to-subject,medium,aspect-to-aspect,button panel then the three wise guys themselves,claude-sonnet-b
+2635_45_6__45_7,1,scene-to-scene,medium,,caption AS BARRY LEAVES THE TONG; new place,claude-sonnet-b
+926_12_5__12_6,1,subject-to-subject,medium,action-to-action,policeman watching then cyclist with foot caught,claude-sonnet-b
+1200_23_0__23_1,1,scene-to-scene,medium,,caption says after that he traveled; new match,claude-sonnet-b
+3046_20_5__20_6,1,subject-to-subject,medium,scene-to-scene,Griffin falls then old man praises Sir Galahad,claude-sonnet-b
+1105_35_3__35_4,1,scene-to-scene,medium,action-to-action,phone call from Washington then heroes fly off after costume change,claude-sonnet-b
+1996_11_2__11_3,1,moment-to-moment,medium,subject-to-subject,thugs shake the boy; same pose; talk continues,claude-sonnet-b
+45_42_1__42_2,1,subject-to-subject,medium,scene-to-scene,freed man and agent then bystanders discussing Lucky,claude-sonnet-b
+1442_46_4__46_5,1,subject-to-subject,medium,action-to-action,thieves pelting bags then watchman strikes Doug,claude-sonnet-b
+298_29_3__29_4,1,scene-to-scene,medium,,caption village after village; new setting,claude-sonnet-b

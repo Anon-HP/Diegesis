@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2458_52_0__52_1,1,subject-to-subject,medium,scene-to-scene,hero thinking then cut to fleeing dacoit leaping from balcony; same scene,claude-opus-a
+1199_55_8__56_0,1,subject-to-subject,high,,cut from apologizing man to thug ordering them to move,claude-opus-a
+2650_24_2__24_3,1,subject-to-subject,medium,action-to-action,focus moves from two talking kids to Windy strutting past,claude-opus-a
+1433_20_1__20_2,1,scene-to-scene,medium,action-to-action,verdict in court then later on courthouse steps; time gap,claude-opus-a
+1462_56_0__56_1,1,scene-to-scene,high,,caption And so one morning I hiked to Middleburg; new place,claude-opus-a
+1101_42_3__42_4,1,action-to-action,medium,subject-to-subject,boy turns and leans into back seat grabbing items,claude-opus-a
+3751_8_2__8_3,1,action-to-action,high,,grappling then hero flips the attacker,claude-opus-a
+2206_11_7__11_8,1,subject-to-subject,medium,action-to-action,threat inside sub then cut to submarine surfacing as result,claude-opus-a
+2827_4_4__4_5,1,subject-to-subject,medium,action-to-action,dying man focus then two heroes discussing the letter,claude-opus-a
+1290_12_0__12_1,1,action-to-action,high,,hero runs into house then is ambushed inside,claude-opus-a
+1286_16_0__16_1,1,subject-to-subject,medium,action-to-action,heroes at door then focus on prisoners and guards in trap room,claude-opus-a
+2334_15_5__15_6,1,action-to-action,medium,scene-to-scene,crooks fight through crowd then race to getaway car,claude-opus-a
+2121_11_6__12_0,1,subject-to-subject,medium,aspect-to-aspect,terminal crowd then cut to masked robbers; caption SUDDENLY,claude-opus-a
+1714_33_3__33_4,1,action-to-action,high,,man rushes out to confess then confesses to officer,claude-opus-a
+1977_32_2__32_3,1,subject-to-subject,high,,gunman says reach then cut to crooks fleeing to engine room,claude-opus-a
+1105_10_1__10_2,1,subject-to-subject,medium,action-to-action,villain closeup speaking then wide shot of hero replying,claude-opus-a
+546_14_0__14_1,1,subject-to-subject,medium,scene-to-scene,kids in living room then cook working in kitchen,claude-opus-a
+1645_22_0__22_1,1,action-to-action,high,,swims across river then climbs up the bank,claude-opus-a
+3637_30_5__30_6,1,moment-to-moment,medium,subject-to-subject,same woman shocked; then view of her mirror reflection,claude-opus-a
+1584_31_0__31_1,1,action-to-action,medium,subject-to-subject,Steel succumbs; villain kneels to remove handcuffs,claude-opus-a
+1352_14_0__14_1,1,action-to-action,high,,couple embrace then kiss,claude-opus-a
+1319_28_4__29_0,1,subject-to-subject,medium,action-to-action,sneaking man near car then cut to three men held up,claude-opus-a
+3008_42_0__42_1,1,subject-to-subject,medium,action-to-action,soldier fights enemy then others freeing the general,claude-opus-a
+2650_25_1__25_2,1,scene-to-scene,medium,action-to-action,arrival at airfield then in office giving orders,claude-opus-a
+1290_13_1__13_2,1,action-to-action,medium,subject-to-subject,gunman over downed Blue Beetle; Beetle kicks gun away,claude-opus-a
+2588_45_7__45_8,1,action-to-action,high,,man greets friend then walks off arm in arm,claude-opus-a
+1822_32_6__32_7,1,action-to-action,high,,poet recognizes Mary then grabs and gags her,claude-opus-a
+3103_15_2__15_3,1,subject-to-subject,medium,action-to-action,kids arguing in car then police arrive and find body,claude-opus-a
+1271_51_5__51_6,1,scene-to-scene,medium,subject-to-subject,caption AT THAT MOMENT; cut from girl to hero flying over city,claude-opus-a
+3034_26_1__26_2,1,scene-to-scene,medium,aspect-to-aspect,text feature; Tower of Babel then Hanging Gardens of Babylon,claude-opus-a
+539_24_3__24_4,1,action-to-action,medium,subject-to-subject,Ruth walks off followed by Patton then boards bus shadowed,claude-opus-a
+3150_14_2__14_3,1,action-to-action,medium,subject-to-subject,pilot fires on German then German plane falls in flames,claude-opus-a
+1712_30_3__30_4,1,action-to-action,medium,subject-to-subject,kid gets idea in fog then says Eternity to become visible,claude-opus-a
+123_10_0__10_1,0,,high,,panel A is a crop of the same splash shown in B; not consecutive,claude-opus-a
+1607_28_0__28_1,1,scene-to-scene,medium,subject-to-subject,caption Two days later; text box then couple at cemetery,claude-opus-a
+3294_14_3__14_4,1,subject-to-subject,high,,Lilith asks question then creature answers in closeup,claude-opus-a
+3046_4_5__5_0,1,action-to-action,high,,Wizard flees then leaps out the window; caption mighty leap,claude-opus-a
+1462_31_4__31_5,1,moment-to-moment,low,subject-to-subject,same hero talking; closeup then wider shot with listener reply,claude-opus-a
+3406_45_7__46_0,1,action-to-action,high,,brothers find fallen man then kneel to revive him,claude-opus-a
+2442_13_8__14_0,1,scene-to-scene,medium,non-sequitur,end of gnome story then title splash of new story,claude-opus-a

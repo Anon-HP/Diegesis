@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+3334_23_2__23_3,1,action-to-action,medium,subject-to-subject,close-up of same bound hands; sparks now burning through rope,claude-opus-a
+2142_59_4__59_5,1,scene-to-scene,medium,action-to-action,day to dusk silhouettes on long walk to town; significant time gap,claude-opus-a
+1712_15_4__15_5,1,subject-to-subject,high,action-to-action,cut from falling Master Man to boy and old man watching fissure,claude-opus-a
+1146_56_0__56_1,1,subject-to-subject,medium,scene-to-scene,cut from floating police to gangster Skullface raving,claude-opus-a
+1752_1_2__1_3,0,,,,ad page and table of contents; not story panels,claude-opus-a
+1271_49_0__49_1,1,scene-to-scene,low,subject-to-subject,caption AT THAT MOMENT; cut to villain in plane elsewhere,claude-opus-a
+789_60_6__61_0,1,scene-to-scene,medium,non-sequitur,story ends; B is title panel of new Cannonball Jones story,claude-opus-a
+793_12_3__12_4,1,action-to-action,high,moment-to-moment,same dying man crawls then reaches stamp pad,claude-opus-a
+3951_6_3__6_4,1,subject-to-subject,medium,action-to-action,girl asks who; B close-up of Dr Trapp answering,claude-opus-a
+1752_39_5__39_6,1,scene-to-scene,high,,caption MEANWHILE; morgue to plague in city,claude-opus-a
+1050_23_1__23_2,1,subject-to-subject,medium,scene-to-scene,admiral giving orders; cut to Sgt Bell on carrier deck replying,claude-opus-a
+3334_53_1__53_2,1,action-to-action,medium,scene-to-scene,same group marched to office; now arriving inside Phake's office,claude-opus-a
+1075_22_0__22_1,1,action-to-action,high,subject-to-subject,same bull about to sit; chair pulled and he falls,claude-opus-a
+3951_19_0__19_1,1,subject-to-subject,medium,action-to-action,heroes sneaking; focus shifts to fox carrying hen,claude-opus-a
+956_44_1__44_2,1,moment-to-moment,medium,action-to-action,same swimmer same position; caption stresses no progress,claude-opus-a
+3693_23_3__23_4,1,scene-to-scene,low,subject-to-subject,village surrender then prisoners at gangplank; moderate time-place jump,claude-opus-a
+3751_48_3__48_4,1,subject-to-subject,medium,action-to-action,man orders Webb; cut to Webb close-up semaphoring,claude-opus-a
+2438_21_1__21_2,1,subject-to-subject,medium,scene-to-scene,bomb falling on fleeing men; cut to Bozo hearing shouts,claude-opus-a
+414_7_3__7_4,1,action-to-action,medium,subject-to-subject,heroes run into museum; now inside confronting Fire Bug,claude-opus-a
+1712_11_5__11_6,1,subject-to-subject,high,action-to-action,Master Man speaks; Torquemada replies and summons instruments,claude-opus-a
+395_2_2__3_0,1,subject-to-subject,medium,moment-to-moment,same conversation; focus widens to cowboy henchman replying,claude-opus-a
+282_21_1__21_2,1,action-to-action,high,,mounties about to take off; now flying in plane,claude-opus-a
+2737_33_3__33_4,1,scene-to-scene,high,,caption BEFORE DAWN; outdoors with girl to secret files room,claude-opus-a
+3783_23_2__23_3,1,subject-to-subject,medium,moment-to-moment,Jeff Baker watching; cut to arguing group itself,claude-opus-a
+1271_9_3__9_4,1,action-to-action,medium,subject-to-subject,cop whacks kid; kid stumbles off threatening while crowd laughs,claude-opus-a
+1094_35_0__35_1,1,action-to-action,high,,fight progresses; Gage draws gun and gets hit,claude-opus-a
+1153_8_3__8_4,1,action-to-action,high,,same man plans then pushes boulder at entrance,claude-opus-a
+1712_27_6__28_0,1,subject-to-subject,medium,action-to-action,cheering crowd and plane; cut to passengers disembarking,claude-opus-a
+3823_28_0__28_1,1,subject-to-subject,medium,scene-to-scene,Sheena attacks man; caption SUDDENLY cut to roaring gorilla,claude-opus-a
+3334_8_4__8_5,0,,,,one newspaper panel split in two; headline spans both crops,claude-opus-a
+1352_33_2__33_3,1,scene-to-scene,high,,caption rest of the day; that evening at hotel,claude-opus-a
+860_23_1__23_2,1,subject-to-subject,high,,Allen taunts Kortner; Kortner replies with gun drawn,claude-opus-a
+1593_24_5__24_6,1,subject-to-subject,high,,Rufus speaks to Mary; young man answers Rufus,claude-opus-a
+3823_41_6__41_7,1,subject-to-subject,low,aspect-to-aspect,eagle with knife burst; cut to group of men talking,claude-opus-a
+282_33_0__33_1,1,action-to-action,medium,subject-to-subject,Merlo confronted; now seizes Marian as shield,claude-opus-a
+282_7_7__8_0,1,subject-to-subject,medium,action-to-action,syringe in girl's hand; cut to drugged Corey dreaming,claude-opus-a
+3747_36_1__36_2,1,scene-to-scene,medium,action-to-action,caption SOON; from car to studio audience,claude-opus-a
+2600_7_6__7_7,1,action-to-action,medium,subject-to-subject,hero punches thug; enemy surrenders hands up,claude-opus-a
+2488_26_4__26_5,1,scene-to-scene,high,,flashback caption; grave marker to past jungle encounter,claude-opus-a
+2155_13_0__13_1,1,subject-to-subject,medium,scene-to-scene,phone call; cut from Joe to caller Dusty,claude-opus-a

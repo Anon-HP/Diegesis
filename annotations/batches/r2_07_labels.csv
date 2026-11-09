@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2650_77_1__77_2,1,action-to-action,high,,same boy; puts dog head in tub then fetches sponge and soap,claude-opus-a
+3951_24_0__24_1,0,,high,,A is a crop of the splash caption that reappears in B; fragment,claude-opus-a
+1944_4_3__4_4,1,action-to-action,high,,same man hit by car then sitting on road after impact,claude-opus-a
+2827_20_0__20_1,1,action-to-action,medium,moment-to-moment,same villain speaking; moves from standing to kneeling over parachute pack,claude-opus-a
+3367_3_5__3_6,1,action-to-action,high,,Sterling lowers tongs; caption seconds later only stumps remain,claude-opus-a
+2513_47_5__47_6,1,subject-to-subject,high,,man sneaks in; cut to Nancy with rifle he discovers,claude-opus-a
+3449_11_1__11_2,1,subject-to-subject,medium,moment-to-moment,bar conversation; focus shifts from salesman to Morrow reacting,claude-opus-a
+1752_20_1__20_2,1,subject-to-subject,high,,boy watches killers; cut to guards rushing out in same scene,claude-opus-a
+2442_19_0__19_1,1,action-to-action,medium,subject-to-subject,officer leaps through window then runs after fleeing woman,claude-opus-a
+2206_51_6__52_0,1,action-to-action,medium,subject-to-subject,Fero in room then examines curtain tear; investigation progresses,claude-opus-a
+1146_9_0__9_1,1,action-to-action,medium,subject-to-subject,Samson lifts car then interrogates thug who answers,claude-opus-a
+1334_7_4__7_5,1,moment-to-moment,medium,subject-to-subject,same two cowboys continue talking; closer framing little change,claude-opus-a
+535_16_3__16_4,1,subject-to-subject,medium,action-to-action,red cap lifting bag; focus shifts to hatted men in foreground,claude-opus-a
+3773_55_1__55_2,1,scene-to-scene,medium,aspect-to-aspect,caption THAT NIGHT; planes drop parachutes over America,claude-opus-a
+3863_27_2__27_3,1,scene-to-scene,high,,caption a short time later as they reach Adams office,claude-opus-a
+1075_27_4__27_5,1,subject-to-subject,medium,action-to-action,professor advises; focus shifts to patient thanking him,claude-opus-a
+3951_39_1__39_2,1,action-to-action,medium,subject-to-subject,hero finishes fight then reports as soldiers arrive,claude-opus-a
+2990_25_3__25_4,1,scene-to-scene,high,,caption on the road to the windmill; different characters and place,claude-opus-a
+1996_26_3__26_4,1,action-to-action,high,,man points at fire axe then drags handcuffed woman holding axe,claude-opus-a
+315_7_3__7_4,1,action-to-action,medium,moment-to-moment,professor encourages cat; cat now plays violin on request,claude-opus-a
+539_57_1__57_2,0,,high,,both crops are overlapping pieces of one splash page; fragment,claude-opus-a
+2943_42_0__42_1,1,scene-to-scene,medium,,title splash intro then caption silent side street in Central City,claude-opus-a
+942_10_4__10_5,1,subject-to-subject,medium,action-to-action,rider approaching; cut to man he reaches who answers,claude-opus-a
+1082_6_5__6_6,1,action-to-action,medium,,ape leans over fallen boy then bursts out of closet,claude-opus-a
+3281_48_1__48_2,1,scene-to-scene,medium,,caption while at the tiger camp; cut from bald man to camp; overlapping crops,claude-opus-a
+1462_42_5__43_0,1,action-to-action,medium,,same two fighters; brawl then punch lands,claude-opus-a
+1462_5_3__5_4,1,subject-to-subject,medium,action-to-action,boy over grandpa; focus on man pulling him away,claude-opus-a
+2892_52_4__53_0,1,action-to-action,medium,subject-to-subject,woman holds men at gun point then leaves by rear door,claude-opus-a
+2827_41_2__41_3,1,action-to-action,high,,grappling then Lance strikes; genius stumbles backward,claude-opus-a
+3034_6_0__6_1,1,subject-to-subject,medium,moment-to-moment,crew argument continues; focus moves between old man and captain,claude-opus-a
+3495_15_7__16_0,1,subject-to-subject,medium,scene-to-scene,guerrilla leader runs; cut to Japanese boat landing in same battle,claude-opus-a
+3673_47_0__47_1,1,scene-to-scene,low,action-to-action,text caption of spirit journey to land of mists then jungle realm,claude-opus-a
+178_33_2__33_3,1,scene-to-scene,medium,,farewell with girl then caption Rulak reports at Ates door,claude-opus-a
+1137_3_0__3_1,1,subject-to-subject,medium,action-to-action,chief and hero argue; focus shifts to gorilla attacking chief,claude-opus-a
+2225_29_3__29_4,1,scene-to-scene,high,,caption twenty years later; baby grown fighting beast,claude-opus-a
+3863_14_1__14_2,1,action-to-action,medium,subject-to-subject,man and cabbie discuss bill then exchange money,claude-opus-a
+546_26_2__26_3,1,subject-to-subject,medium,aspect-to-aspect,close-up of blonde then wide room; focus on other woman speaking,claude-opus-a
+2635_25_1__25_2,1,action-to-action,medium,subject-to-subject,man on ground claims injury then gets up demanding cash,claude-opus-a
+1822_34_1__34_2,1,action-to-action,high,,girl winds up swing then punch lands on man,claude-opus-a
+1348_15_4__15_5,1,subject-to-subject,medium,,crowd over couple; caption Anton arrives and accuses Guy,claude-opus-a

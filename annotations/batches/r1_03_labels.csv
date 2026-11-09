@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+3747_29_3__29_4,1,subject-to-subject,medium,action-to-action,focus moves from woman embracing to hat man embracing her and replying,claude-opus-a
+1943_15_1__15_2,1,action-to-action,medium,subject-to-subject,cowboy crouching then shoots gun from Mitchell's holster,claude-opus-a
+1752_60_5__60_6,1,action-to-action,high,,Lizard leaps across street then stands on rooftop,claude-opus-a
+1406_4_4__4_5,1,scene-to-scene,medium,action-to-action,indoor table meeting then boys out on street in different location,claude-opus-a
+1406_8_1__8_2,1,subject-to-subject,medium,aspect-to-aspect,close view of barnacle sign then the boys reading and reacting,claude-opus-a
+1271_13_7__14_0,1,action-to-action,medium,scene-to-scene,hero forces man to point; then puts him in hole,claude-opus-a
+414_34_1__34_2,0,,,,quiz feature panels not narrative story panels,claude-opus-a
+282_28_5__28_6,1,scene-to-scene,high,,caption to the local police; new location police station,claude-opus-a
+2488_44_2__44_3,1,scene-to-scene,low,subject-to-subject,fight with blonde then different men watching boat on flood,claude-opus-a
+1153_31_0__31_1,1,action-to-action,high,subject-to-subject,Corby draws then bullet smacks gun from Haddon's hand,claude-opus-a
+1050_10_3__10_4,1,action-to-action,medium,subject-to-subject,old man draws gun then shoots at woman near shade,claude-opus-a
+703_18_5__18_6,1,action-to-action,medium,subject-to-subject,dog attacks man; then man's gun fires into dog,claude-opus-a
+395_24_0__24_1,1,action-to-action,low,moment-to-moment,Billy searching on horseback then closer as he turns and speaks,claude-opus-a
+1943_32_2__32_3,1,subject-to-subject,medium,moment-to-moment,cowboy asks question; bald man replies then cowboy closeup speaks,claude-opus-a
+1943_26_2__26_3,1,action-to-action,medium,subject-to-subject,outlaws surrender then are rounded up while Monte talks,claude-opus-a
+3863_39_5__40_0,1,action-to-action,medium,subject-to-subject,Mona greets man; then he grabs her and whispers,claude-opus-a
+3863_22_3__23_0,1,action-to-action,medium,subject-to-subject,same two men move from dock crowd to boat side,claude-opus-a
+3579_6_2__6_3,1,subject-to-subject,medium,scene-to-scene,Ghost Rider shoots then sheriff and wounded man; caption a moment later,claude-opus-a
+1352_11_5__12_0,1,action-to-action,medium,scene-to-scene,couple talking on street then riding together in taxi,claude-opus-a
+1752_23_4__23_5,1,action-to-action,high,,Sword poses with blade then leaps away to check on Dad,claude-opus-a
+3951_13_1__13_2,1,subject-to-subject,medium,aspect-to-aspect,villain taunts trapped Mary; cut to mocking eyes surrounding her,claude-opus-a
+1050_5_1__5_2,1,scene-to-scene,high,,caption MEANWHILE; coach at headquarters,claude-opus-a
+1352_16_6__16_7,1,scene-to-scene,medium,,narration caption bridges to later honeymoon cruise scene,claude-opus-a
+2155_6_5__7_0,1,scene-to-scene,medium,action-to-action,caption THAT NIGHT; exterior house then interior,claude-opus-a
+2159_11_2__11_3,0,,,,puzzle feature and upside-down solutions; not story panels,claude-opus-a
+1075_24_7__25_0,1,moment-to-moment,medium,subject-to-subject,same doctor continues instructions; closer framing with no new action,claude-opus-a
+1075_29_0__29_1,0,,,,text story page; B is prose text only,claude-opus-a
+3951_35_0__35_1,1,subject-to-subject,medium,action-to-action,foreman questions visitors then greeter and Flub Dub reply,claude-opus-a
+3783_18_5__18_6,1,subject-to-subject,medium,action-to-action,Royce talking to mother then turns to offer Tommy work,claude-opus-a
+3693_19_2__19_3,1,action-to-action,medium,subject-to-subject,captain halts troop then rides out with Keeto,claude-opus-a
+2159_5_5__6_0,1,moment-to-moment,medium,action-to-action,same man still gripping youth; wider view as he keeps shouting,claude-opus-a
+2438_26_2__26_3,1,subject-to-subject,high,,ghost demands surrender then villain Rocky replies,claude-opus-a
+793_51_0__51_1,1,scene-to-scene,medium,action-to-action,caption LATER; ring leader felled then heroes driving to police,claude-opus-a
+2142_45_6__45_7,1,action-to-action,low,scene-to-scene,car drives off then arrives at shore; driver speaks of submarine,claude-opus-a
+3751_63_6__63_7,1,subject-to-subject,medium,,villains flee from bomb then cut to Merlin staring at it,claude-opus-a
+703_32_1__32_2,0,,,,Smith Brothers cough drops advertisement comic,claude-opus-a
+2543_43_2__43_3,1,action-to-action,medium,moment-to-moment,rider sets off into storm then rides on as blizzard grows,claude-opus-a
+395_14_3__14_4,1,subject-to-subject,high,,cowboy asks question then injured rancher bandaged replies,claude-opus-a
+1943_33_6__33_7,1,action-to-action,high,,man takes bag from bed then walks down stairs with it,claude-opus-a
+3579_29_3__29_4,1,scene-to-scene,high,,caption while on the other side of the mountains; new characters,claude-opus-a

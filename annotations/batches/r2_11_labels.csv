@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+1094_64_1__64_2,1,scene-to-scene,medium,action-to-action,boy dashes into bank; then alone on curb at sunset elsewhere; time and place jump,claude-opus-a
+3020_44_1__44_2,1,subject-to-subject,medium,action-to-action,Maxie urges; focus shifts to Timmy pleading as they move outside,claude-opus-a
+1584_23_10__24_0,0,,low,,A is cropped contest coupon fragment; B is title splash of new story,claude-opus-a
+376_36_6__36_7,1,subject-to-subject,medium,action-to-action,greeters to Lee mooning; puzzled visitors react,claude-opus-a
+3367_65_4__65_5,1,subject-to-subject,medium,scene-to-scene,Zambini casts magic; cut to bomber pilots affected,claude-opus-a
+781_15_3__15_4,1,action-to-action,medium,subject-to-subject,giant wades out; then spots and goes for sub,claude-opus-a
+2635_25_4__25_5,1,subject-to-subject,medium,action-to-action,Wun Cloo alone; umpire arrives and greets him,claude-opus-a
+2192_26_0__26_1,1,action-to-action,medium,subject-to-subject,same two women; confession then walk to door to part,claude-opus-a
+3823_14_3__14_4,1,scene-to-scene,medium,aspect-to-aspect,caption BUT SOON; cut from couple to besieged village,claude-opus-a
+2159_18_5__19_0,1,subject-to-subject,medium,action-to-action,pursuer bounding; overhead view of fugitive climbing building,claude-opus-a
+3783_17_6__18_0,1,scene-to-scene,high,,caption THEN ONE DAY; family finds silver ore later,claude-opus-a
+2438_47_0__47_1,1,subject-to-subject,medium,action-to-action,pilot chases; cut to fugitive smashing chair at cabin,claude-opus-a
+90_41_2__42_0,1,scene-to-scene,medium,subject-to-subject,caption other end of the line three thousand miles away,claude-opus-a
+211_92_1__92_2,1,action-to-action,medium,scene-to-scene,walking to committee room; then seated inside at meeting,claude-opus-a
+2334_5_6__5_7,1,scene-to-scene,medium,action-to-action,inventor pondering; then in locker room proving fitness,claude-opus-a
+3565_41_6__42_0,1,subject-to-subject,medium,action-to-action,woman fights henchmen; leader grabs and threatens her,claude-opus-a
+3008_13_1__13_2,1,scene-to-scene,high,,caption HOURS AFTER far out in North Sea,claude-opus-a
+3495_32_5__32_6,1,action-to-action,low,scene-to-scene,woman talks with man; then seated phoning to investigate,claude-opus-a
+2588_53_2__54_0,1,action-to-action,medium,scene-to-scene,monster attacks; youth crashes out window escaping,claude-opus-a
+793_38_1__38_2,1,action-to-action,high,,hero swings punch; villain sent flying,claude-opus-a
+1752_14_4__14_5,1,subject-to-subject,medium,aspect-to-aspect,eulogy speaker to mourners and rifle salute,claude-opus-a
+871_42_6__43_0,1,scene-to-scene,high,,caption TWO WEEKS LATER in prison,claude-opus-a
+1645_15_1__15_2,1,scene-to-scene,medium,subject-to-subject,cut from Ant Woman ordering slaves to heroes elsewhere in jungle,claude-opus-a
+2511_14_3__15_0,1,action-to-action,medium,moment-to-moment,same boy and parrot; now walking out to find crime,claude-opus-a
+2206_46_5__46_6,1,action-to-action,medium,subject-to-subject,man struck and reeling; then lying dead examined,claude-opus-a
+2737_24_4__24_5,1,action-to-action,medium,subject-to-subject,hero shoots gun away; crooks surrender at gunpoint,claude-opus-a
+1128_55_0__55_1,1,moment-to-moment,medium,action-to-action,same witch keeps talking; closer framing with pets,claude-opus-a
+539_29_3__30_0,1,subject-to-subject,medium,action-to-action,Slapsie scolded; corporal arrives and gives orders,claude-opus-a
+3693_14_1__14_2,1,subject-to-subject,medium,action-to-action,animals sinking in swamp; Wambi watches aghast,claude-opus-a
+1286_4_7__5_0,1,subject-to-subject,medium,scene-to-scene,Nazi plotters; cut to hero outside reacting angrily,claude-opus-a
+2198_26_1__26_2,1,subject-to-subject,medium,action-to-action,Presto casts spell; caption INSTANTLY flames hit monsters,claude-opus-a
+2121_43_7__44_0,1,subject-to-subject,medium,action-to-action,hero punches thug; new gunman appears ordering hands up,claude-opus-a
+2321_23_7__24_0,1,subject-to-subject,low,moment-to-moment,officer speaking; wider view reveals prisoners being taken,claude-opus-a
+3449_24_2__24_3,1,action-to-action,medium,moment-to-moment,cloak torn free; then choking man helped with knots,claude-opus-a
+311_49_6__49_7,0,,high,,both panels are a bike tire advertisement,claude-opus-a
+3802_11_1__11_2,1,action-to-action,medium,subject-to-subject,outlaws over knocked-out woman; then ride away,claude-opus-a
+793_11_0__11_1,0,,low,,A is a cropped fragment of title lettering only,claude-opus-a
+2892_9_7__9_8,1,subject-to-subject,high,action-to-action,thug blocks door; caption SUDDENLY Targeteers burst in,claude-opus-a
+1200_28_10__28_11,1,action-to-action,low,subject-to-subject,hero identifies smugglers; then celebrates with sidekick,claude-opus-a
+3034_30_0__30_1,1,scene-to-scene,high,,caption LATER THAT NIGHT; bedroom to townsmen in forest,claude-opus-a

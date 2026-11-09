@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+1153_1_2__1_3,0,,,,mail-order advertisement page; not story panels,claude-opus-a
+1416_50_2__50_3,1,subject-to-subject,medium,moment-to-moment,focus moves from hero speaking to cigar thug replying,claude-opus-a
+3367_5_6__5_7,1,subject-to-subject,high,,hero sees plane; cut to close-up of the pilot,claude-opus-a
+3281_17_3__17_4,1,scene-to-scene,high,,caption MEANWHILE; cut to offices of the Daily Blade,claude-opus-a
+651_1_1__1_2,0,,,,diet gum advertisement; not story panels,claude-opus-a
+3334_58_0__58_1,0,,,,N.R.I. advertisement comic; not story content,claude-opus-a
+1050_46_1__46_2,0,,,,Kleerex advertisement comic strip,claude-opus-a
+942_36_5__36_6,0,,,,gun advertisement and coupon text,claude-opus-a
+684_50_1__50_2,0,,,,cover/promo blurb captions; not story panels,claude-opus-a
+1943_3_2__3_3,1,scene-to-scene,high,,caption AND IN A TRAIN DEPOT; bank then depot with new characters,claude-opus-a
+315_21_3__21_4,1,action-to-action,high,,same cat on horse; jump then racing past horses,claude-opus-a
+646_21_1__21_2,1,subject-to-subject,high,,man dumping cargo; cut to Vicki hearing a whistle,claude-opus-a
+2142_66_2__66_3,0,,,,radio school advertisement and coupon,claude-opus-a
+546_22_9__22_10,1,scene-to-scene,medium,subject-to-subject,caption NEW PROBLEMS CROP UP DAILY implies time skip,claude-opus-a
+2892_21_1__21_2,1,action-to-action,high,,Galar leaps to ship; ship streaks into space,claude-opus-a
+755_2_0__2_1,1,action-to-action,high,,Champ parachutes into lake; then sinks under water,claude-opus-a
+1334_17_3__17_4,1,subject-to-subject,medium,moment-to-moment,Clark shows papers; other man replies in two-shot,claude-opus-a
+703_30_5__30_6,1,action-to-action,medium,subject-to-subject,victim blinded in dark; then burned by doombeam,claude-opus-a
+2158_28_0__28_1,0,,,,splash title fragment; A is a crop of B,claude-opus-a
+2121_56_3__56_4,1,action-to-action,medium,subject-to-subject,bribe offered; plaid man answers with a punch,claude-opus-a
+2206_63_6__63_7,1,subject-to-subject,medium,scene-to-scene,ship zooms off; A MOMENT LATER Nelson Cole at another ship,claude-opus-a
+539_35_0__35_1,1,action-to-action,medium,subject-to-subject,same man walks on; meets the penguin,claude-opus-a
+282_7_3__7_4,1,subject-to-subject,medium,action-to-action,man grabs report; close-up of the dossier text,claude-opus-a
+1271_45_3__45_4,1,action-to-action,high,,Nippo spots fortress; strides out ordering the Zero,claude-opus-a
+2737_39_5__39_6,1,scene-to-scene,medium,subject-to-subject,eavesdropper; cut to counter-espionage agents tracking on map,claude-opus-a
+179_30_0__30_1,1,action-to-action,low,moment-to-moment,narration caption of fall; narrator recoils from edge,claude-opus-a
+376_37_7__37_8,1,subject-to-subject,medium,action-to-action,speaker on dark road; cut to men with stuck van,claude-opus-a
+1462_31_3__31_4,1,subject-to-subject,medium,moment-to-moment,young man speaks; close-up of hatted hero explaining,claude-opus-a
+2635_1_4__1_5,0,,,,Schwinn bicycle advertisement,claude-opus-a
+3751_14_2__14_3,1,subject-to-subject,high,,driver confesses; cut to sergeant soothing mob,claude-opus-a
+657_28_1__28_2,1,aspect-to-aspect,low,scene-to-scene,verse illustrating facets of a policeman's duties; no time thread,claude-opus-a
+755_10_0__10_1,1,action-to-action,medium,subject-to-subject,plane climbs; airship comes into view,claude-opus-a
+188_53_1__53_2,1,action-to-action,medium,subject-to-subject,serpent lifts boat; Reef thrown into sea,claude-opus-a
+1153_1_0__1_1,0,,,,mail-order novelty advertisement,claude-opus-a
+1056_15_0__15_1,1,subject-to-subject,medium,aspect-to-aspect,parade splash; cut to Ima Slooth by rally banner,claude-opus-a
+539_53_4__53_5,1,scene-to-scene,medium,action-to-action,caption LEONARDO GOES INTO A PET SHOP; new location,claude-opus-a
+860_36_0__36_1,0,,,,toy soldier advertisement,claude-opus-a
+2892_12_3__12_4,1,subject-to-subject,medium,action-to-action,man senses follower; cut reveals Galar walking ahead,claude-opus-a
+262_18_1__18_2,1,subject-to-subject,low,action-to-action,gunpoint standoff; narration caption and focus on other man outside,claude-opus-a
+3144_41_2__41_3,0,,,,house ad for Wanted Comics,claude-opus-a

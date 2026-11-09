@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+684_21_0__21_1,0,,high,,A is a partial crop of the same title splash shown in B; fragment,claude-opus-a
+1645_13_4__13_5,1,subject-to-subject,medium,action-to-action,Ant Woman with gold; then slave appears and reports safari; focus shifts,claude-opus-a
+1200_27_4__27_5,1,action-to-action,medium,subject-to-subject,Same diver finds trap door then is at air-lock chamber; progression of exploration,claude-opus-a
+2556_32_3__32_4,1,scene-to-scene,high,action-to-action,Plane in flight then landed in jungle greeted by guide; big time/space jump,claude-opus-a
+484_14_5__14_6,1,scene-to-scene,medium,action-to-action,Hickok wounded; caption-only epilogue summarizing his later career; large time jump,claude-opus-a
+3369_56_6__56_7,1,scene-to-scene,high,,Caption NEXT DAY; Flash on phone then Dudley at Texas hotel,claude-opus-a
+315_21_4__21_5,1,subject-to-subject,high,,Cat jockey riding then cut to patrol judges watching race,claude-opus-a
+3582_33_1__33_2,0,,high,,Advertisement for toy airplanes,claude-opus-a
+1200_1_3__1_4,0,,high,,House ad for Wings Comics,claude-opus-a
+3449_28_1__28_2,0,,high,,Spot Reducer advertisement,claude-opus-a
+926_1_0__1_1,1,scene-to-scene,medium,aspect-to-aspect,Splash intro then caption introducing Club Flamingo setting; story moves to new place,claude-opus-a
+546_9_4__9_5,1,subject-to-subject,medium,scene-to-scene,Man at taxi asks question; cut to other men replying,claude-opus-a
+3951_27_3__27_4,1,action-to-action,low,scene-to-scene,Phantom Eagle frees McLean; caption-only panel says he outlines plan; next action stage,claude-opus-a
+852_36_1__36_2,0,,high,,Cover and handwritten index card; not story panels,claude-opus-a
+1996_49_1__49_2,1,action-to-action,medium,subject-to-subject,Whistler plans trick then performs ventriloquism; crook reacts; same pair progresses,claude-opus-a
+2458_20_0__20_1,0,,high,,Cover and crop of cover; not story panels,claude-opus-a
+1978_11_0__11_1,1,subject-to-subject,medium,aspect-to-aspect,Ships in space exterior then Rex and Cynde inside hearing radio warning,claude-opus-a
+956_59_5__59_6,1,scene-to-scene,medium,subject-to-subject,Caption about New York; different group and setting after London scene,claude-opus-a
+1943_28_7__28_8,1,action-to-action,low,moment-to-moment,Same two cowboys continue talk; Slick has moved beside old man,claude-opus-a
+3773_56_9__56_10,0,,medium,,B is a next-issue promo text box; not a story panel,claude-opus-a
+1082_31_0__31_1,1,action-to-action,medium,scene-to-scene,Orville whooshed away then carried by salesman into showroom; continuous action,claude-opus-a
+3495_50_9__50_10,1,subject-to-subject,high,,Crooks in car then cut to cop recognizing them,claude-opus-a
+3495_19_6__19_7,1,scene-to-scene,medium,subject-to-subject,Herr Miller greeted; then different man on phone in another place,claude-opus-a
+956_31_2__31_3,1,subject-to-subject,medium,scene-to-scene,Newspaper headline then Nightro reading it in apartment,claude-opus-a
+1607_6_4__6_5,1,action-to-action,high,,Birds soar skyward then dive into village; caption continues,claude-opus-a
+3406_16_2__16_3,1,subject-to-subject,high,,Man speaks then woman continues speech to comrades,claude-opus-a
+1365_42_0__42_1,1,subject-to-subject,medium,aspect-to-aspect,Bombers in flight then close-up of pilot speaking,claude-opus-a
+2458_25_0__25_1,0,,high,,Cover and crop of cover; not story panels,claude-opus-a
+1584_7_3__7_4,1,action-to-action,high,,Sheena stabs monster then swims to surface,claude-opus-a
+188_30_1__30_2,1,action-to-action,high,,Minimidget behind box then leaps onto desk confronting Watson,claude-opus-a
+2206_12_1__12_2,1,action-to-action,high,,Rocket flying then landing on plain,claude-opus-a
+926_16_0__16_1,1,action-to-action,low,subject-to-subject,Crooks drive off from car then notice headlights following; same car progresses,claude-opus-a
+3235_32_3__32_4,0,,high,,Puzzle feature page; not narrative story panels,claude-opus-a
+3150_31_1__31_2,1,subject-to-subject,medium,scene-to-scene,Aerial battle overview then cut to pilot Gus in cockpit,claude-opus-a
+90_45_5__45_6,1,subject-to-subject,high,,Risk shows menu then close-up of menu,claude-opus-a
+193_31_1__31_2,1,subject-to-subject,medium,scene-to-scene,Hero fights natives; caption cuts to Bentley and Markham firing from cliff,claude-opus-a
+3235_6_4__6_5,1,scene-to-scene,medium,action-to-action,Caption A FEW MINUTES LATER; Billy now in press box of main tent,claude-opus-a
+703_10_0__10_1,1,subject-to-subject,medium,action-to-action,Boys watch train; cut to child on moving train and mother shouting,claude-opus-a
+1944_18_10__18_11,1,subject-to-subject,high,,Kids at door then Plushbottom speaks and kid replies,claude-opus-a
+711_30_3__30_4,1,action-to-action,low,scene-to-scene,Caption-only: Captain Video takes tests; then boss assigns him to lab,claude-opus-a

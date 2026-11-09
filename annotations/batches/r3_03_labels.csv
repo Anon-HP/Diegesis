@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+711_27_4__27_5,1,subject-to-subject,high,,cut from Captain Video watching to Doctor Pauli speaking on screen,claude-opus-a
+45_67_2__67_3,1,action-to-action,medium,subject-to-subject,Don Bovino greets bandits then gives order about prisoners; same group progresses,claude-opus-a
+193_48_8__48_9,1,subject-to-subject,medium,scene-to-scene,big man and Davey talking; cut to Bill and Cap arguing,claude-opus-a
+3773_52_1__52_2,0,,low,,panel B is a text-only caption panel with no image,claude-opus-a
+1149_19_4__19_5,0,,low,,panel B is a cropped text column fragment of the page,claude-opus-a
+1645_60_7__60_8,1,subject-to-subject,medium,action-to-action,eggs shown then man holding egg plotting; focus shifts to man,claude-opus-a
+3034_10_1__10_2,1,subject-to-subject,low,aspect-to-aspect,educational feature; sun-to-Uranus line then Uranus and moons,claude-opus-a
+3020_58_1__58_2,1,action-to-action,medium,moment-to-moment,Timmy frozen gulping then resolves to go to well; same subject,claude-opus-a
+2121_47_3__47_4,1,subject-to-subject,medium,action-to-action,pilot reporting then cut to the intruding plane nearby,claude-opus-a
+1128_55_1__55_2,1,action-to-action,medium,moment-to-moment,witch shows pets then agrees and points; same pair conversation advances,claude-opus-a
+1442_18_6__18_7,1,subject-to-subject,medium,scene-to-scene,crew in water then captain and mate order lifeboats,claude-opus-a
+789_27_2__27_3,1,subject-to-subject,low,action-to-action,county bad men in general then One Eye Wilbur escaping with loot,claude-opus-a
+45_44_4__44_5,1,scene-to-scene,medium,action-to-action,caption after Lonnie tells story; cut to safe showroom elsewhere,claude-opus-a
+1822_28_2__28_3,1,action-to-action,medium,scene-to-scene,pilots in cockpit then plane spiraling in sky,claude-opus-a
+311_12_3__12_4,1,action-to-action,medium,subject-to-subject,same man; now sitting on knocked-out man thinking,claude-opus-a
+1293_13_1__13_2,1,subject-to-subject,medium,scene-to-scene,scientist's syringe then cut to lamb roaming the laboratory,claude-opus-a
+1978_23_0__23_1,1,action-to-action,high,,same man; tiger lunge then frantically searching for door,claude-opus-a
+3150_63_3__63_4,1,action-to-action,high,,same plane circles measuring then heads back to base,claude-opus-a
+1881_22_3__22_4,1,subject-to-subject,medium,moment-to-moment,focus moves from mechanic to girl finishing her quip,claude-opus-a
+211_23_0__23_1,0,,low,,advertisement for war bonds contest,claude-opus-a
+1462_63_5__63_6,1,subject-to-subject,medium,action-to-action,sick man then cut to girl and Bill saying the phrase,claude-opus-a
+535_67_1__67_2,0,,low,,typewriter advertisement,claude-opus-a
+189_28_4__28_5,1,subject-to-subject,high,,startled man then Nick appears speaking; focus to Nick,claude-opus-a
+484_11_1__11_2,0,,low,,text story prose page not panels,claude-opus-a
+1334_18_6__18_7,1,subject-to-subject,high,,sheriff speaks then cowboy listener replies,claude-opus-a
+1977_32_0__32_1,1,action-to-action,high,,Drake dives then boards tug underwater,claude-opus-a
+3144_9_0__9_1,1,subject-to-subject,high,,two thugs talk then close-up of third man responding,claude-opus-a
+3369_20_2__20_3,1,action-to-action,high,,same plane attacks dirigible then dives from bubbles,claude-opus-a
+3046_33_7__33_8,1,subject-to-subject,medium,action-to-action,Vola freezes Quantus then Streak holds Vola after escape,claude-opus-a
+2142_66_1__66_2,0,,low,,radio training advertisement,claude-opus-a
+3008_28_4__28_5,1,action-to-action,medium,subject-to-subject,hero hurls truck; direct hit explosion follows,claude-opus-a
+1977_31_2__31_3,1,subject-to-subject,medium,scene-to-scene,Arnold's crew on deck then desperadoes on tug,claude-opus-a
+1348_35_2__35_3,0,,low,,Spot Reducer advertisement,claude-opus-a
+1442_5_1__5_2,1,subject-to-subject,medium,action-to-action,villains leap onto freight then hero pursues,claude-opus-a
+298_1_1__1_2,0,,low,,savings bonds advertisement,claude-opus-a
+2070_11_2__11_3,1,subject-to-subject,medium,moment-to-moment,speaker shifts from bald boy to tall man replying,claude-opus-a
+2737_49_0__49_1,0,,low,,Trigger-Lite gun advertisement,claude-opus-a
+3034_10_0__10_1,1,subject-to-subject,low,aspect-to-aspect,educational feature; solar system diagram then sun-to-Uranus line,claude-opus-a
+3367_34_5__34_6,1,action-to-action,medium,subject-to-subject,German plane skids away then is shot down,claude-opus-a
+3637_31_2__31_3,1,moment-to-moment,high,,same woman; slight expression change; continues speaking,claude-opus-a

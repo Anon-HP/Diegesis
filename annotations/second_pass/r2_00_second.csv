@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+657_42_0__42_1,1,scene-to-scene,medium,subject-to-subject,talk in office then enemy planes attack at meeting place; new setting,claude-sonnet-b
+2158_43_0__43_1,1,action-to-action,high,,man lifts rock then both fly off seesaw; BONG,claude-sonnet-b
+860_20_1__20_2,1,moment-to-moment,medium,subject-to-subject,same two men at door continue the exchange; same framing,claude-sonnet-b
+2438_26_0__26_1,1,subject-to-subject,medium,action-to-action,gunman and convict then flaming skeleton appears; new focus,claude-sonnet-b
+852_18_3__18_4,1,scene-to-scene,medium,subject-to-subject,brawl flying then new saloon interior with new characters,claude-sonnet-b
+1101_34_5__35_0,1,subject-to-subject,medium,action-to-action,wheel and bystanders then spies flung from perch,claude-sonnet-b
+3144_35_5__35_6,1,action-to-action,medium,subject-to-subject,man enters apartment then faces the dummy,claude-sonnet-b
+2556_13_4__13_5,1,scene-to-scene,high,,caption SOON turns gang over to commissioner,claude-sonnet-b
+1199_57_7__58_0,1,subject-to-subject,low,aspect-to-aspect,night street lamp and car then gang members in front of bank,claude-sonnet-b
+2511_38_4__38_5,1,subject-to-subject,medium,moment-to-moment,speaker shifts to man in hat replying I was framed,claude-sonnet-b
+1977_18_5__18_6,1,scene-to-scene,medium,action-to-action,street scene then police station steps; same kid new location,claude-sonnet-b
+2206_51_0__51_1,0,,,,title splash fragments not story panels,claude-sonnet-b
+3408_11_3__11_4,1,subject-to-subject,high,,Japanese pilots then Airboy and pilot in cockpits,claude-sonnet-b
+942_27_3__27_4,1,moment-to-moment,medium,subject-to-subject,same two men in plane cockpit continue talking,claude-sonnet-b
+609_10_5__11_0,1,action-to-action,medium,moment-to-moment,Ali flees then turns to ambush with club,claude-sonnet-b
+926_25_1__25_2,1,moment-to-moment,low,action-to-action,same trio in same room; speaker continues threatening,claude-sonnet-b
+2964_12_5__12_6,1,subject-to-subject,high,,Luke shooting then skull-faced scarecrow response,claude-sonnet-b
+2964_18_1__18_2,1,action-to-action,medium,moment-to-moment,swimmer struggling then only hand left above water,claude-sonnet-b
+3582_1_1__2_0,0,,,,advertisement then title page not consecutive story panels,claude-sonnet-b
+3080_31_4__31_5,1,scene-to-scene,high,,caption LATER new location,claude-sonnet-b
+193_59_0__59_1,1,scene-to-scene,high,,caption A WEEK LATER stars in space,claude-sonnet-b
+3449_31_7__32_0,0,,,,coupon ad then new romance story title,claude-sonnet-b
+1286_4_6__4_7,1,scene-to-scene,medium,subject-to-subject,truck outside then inside restaurant with Nazi agents,claude-sonnet-b
+3783_21_1__21_2,1,subject-to-subject,medium,moment-to-moment,focus shifts from gloomy prisoner to sheriff speaking,claude-sonnet-b
+755_55_4__55_5,1,subject-to-subject,medium,action-to-action,Tom on ground then highwayman firing; coach racing away,claude-sonnet-b
+1149_18_5__18_6,1,action-to-action,high,,man stumbles then falls down the steps,claude-sonnet-b
+3783_36_3__36_4,1,scene-to-scene,high,,caption AND MILES AWAY new character,claude-sonnet-b
+3238_6_7__7_0,1,action-to-action,medium,subject-to-subject,attack then girl limp and dead; onlookers cry,claude-sonnet-b
+1714_30_0__30_1,1,action-to-action,medium,scene-to-scene,pair enter warehouse door then are inside office,claude-sonnet-b
+2583_15_0__15_1,1,scene-to-scene,medium,subject-to-subject,captions seconds later then long moments later; new place and person,claude-sonnet-b
+2990_46_6__47_0,1,action-to-action,medium,,argument escalates into punches mid-air,claude-sonnet-b
+1433_14_4__14_5,1,scene-to-scene,high,,caption MEANWHILE IN THE MINES,claude-sonnet-b
+2198_62_0__62_1,1,scene-to-scene,medium,action-to-action,hero grabs bullet man then wakes after being knocked out,claude-sonnet-b
+188_23_2__23_3,1,action-to-action,medium,subject-to-subject,flying figure continues and wrecks the circus,claude-sonnet-b
+3034_2_0__2_1,0,,,,advertisement not story panels,claude-sonnet-b
+2600_18_4__18_5,1,subject-to-subject,medium,action-to-action,heroine in vehicle then villain Heinie leaning over,claude-sonnet-b
+2121_35_3__35_4,1,scene-to-scene,medium,subject-to-subject,two men talk then restaurant with waiter and diners,claude-sonnet-b
+789_53_3__53_4,1,action-to-action,medium,moment-to-moment,boy bats bear then looks at stunned bear,claude-sonnet-b
+1153_18_1__18_2,1,subject-to-subject,medium,moment-to-moment,two men talking then close on Fargo speaking,claude-sonnet-b
+1056_39_0__39_1,1,subject-to-subject,medium,action-to-action,swimmers then man-eating zamoid monster attracted by splashing,claude-sonnet-b

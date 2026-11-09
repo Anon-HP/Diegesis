@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2142_61_4__61_5,1,subject-to-subject,medium,action-to-action,man climbs rail; B focus shifts to girl tending fallen Jacky,claude-opus-a
+2998_31_2__31_3,1,action-to-action,high,subject-to-subject,host requests Strad; butler then hands violin over,claude-opus-a
+2262_28_1__28_2,1,moment-to-moment,low,action-to-action,same terrified man in bed; closer view continuing reaction to doll,claude-opus-a
+1584_8_5__8_6,1,subject-to-subject,medium,scene-to-scene,Bob knocked out; cut to headhunters attacking little people in same jungle,claude-opus-a
+659_20_6__20_7,1,subject-to-subject,high,action-to-action,Zaan reads note; caption SUDDENLY native friend rushes in,claude-opus-a
+2192_22_3__22_4,1,scene-to-scene,low,subject-to-subject,police car arrives; B explanation scene with NEXT MORNING caption,claude-opus-a
+1607_8_5__8_6,1,scene-to-scene,medium,action-to-action,caption LATER FROM THE TREETOPS; heroine now near Hawkina den,claude-opus-a
+1150_18_1__19_0,1,scene-to-scene,high,,caption OVER THE CENTURIES; jump to castle on the Rhine,claude-opus-a
+1056_25_4__25_5,1,action-to-action,high,subject-to-subject,Mounties grapple O'Brien; punch lands and he is subdued,claude-opus-a
+1090_26_5__26_6,1,scene-to-scene,high,,caption THAT EVENING AT HOME; new location with father,claude-opus-a
+1334_28_3__28_4,1,subject-to-subject,medium,moment-to-moment,sheriff offers help; cowboy replies he works alone,claude-opus-a
+90_37_5__37_6,1,subject-to-subject,high,,villain threatens victim; cut to man crashing through window,claude-opus-a
+1569_21_1__21_2,1,scene-to-scene,medium,action-to-action,boys walk off with plan; partial caption THAT NIGHT and new spot at theatre,claude-opus-a
+3369_32_1__32_2,1,subject-to-subject,medium,action-to-action,dome hurled; cut to onlookers reacting as building collapses,claude-opus-a
+2205_50_1__50_2,1,subject-to-subject,medium,aspect-to-aspect,Zynnon strides away; cut to clock showing 8:11 time short,claude-opus-a
+546_24_4__24_5,1,scene-to-scene,medium,subject-to-subject,arrival with boxes; caption DRESS REHEARSAL marks later time,claude-opus-a
+1433_30_3__30_4,1,action-to-action,low,moment-to-moment,same witch narrator; turns from back view to face reader,claude-opus-a
+755_21_2__21_3,1,action-to-action,medium,moment-to-moment,same men examine curtain then pull it aside finding passage,claude-opus-a
+282_28_2__28_3,1,subject-to-subject,medium,moment-to-moment,woman protests; close-up of smoking villain continuing explanation,claude-opus-a
+546_20_4__20_5,1,subject-to-subject,medium,action-to-action,girl lists plans; focus shifts to maid heading to sleep,claude-opus-a
+2916_9_5__10_0,1,action-to-action,medium,subject-to-subject,rider thrown from bronco; now on ground as horse turns,claude-opus-a
+189_48_5__48_6,1,subject-to-subject,medium,scene-to-scene,submarine at sea; cut to officer ordering torpedoes,claude-opus-a
+1416_5_1__5_2,1,scene-to-scene,high,,caption AND BACK HOME; burning ship to living room,claude-opus-a
+852_22_0__22_1,1,action-to-action,medium,subject-to-subject,Wreck tends wounded friend; then rises to go after desperadoes,claude-opus-a
+2831_22_2__22_3,1,subject-to-subject,low,scene-to-scene,gang argues indoors; cut to masked man and boss outside fleeing,claude-opus-a
+1996_47_2__47_3,1,subject-to-subject,medium,moment-to-moment,Anson speaks; focus shifts to Tom replying about bankruptcy,claude-opus-a
+3582_29_3__29_4,1,subject-to-subject,medium,moment-to-moment,group of natives react; focus to chief and warrior urging flee,claude-opus-a
+1286_14_2__14_3,1,subject-to-subject,medium,aspect-to-aspect,ship at sea; cut to hero talking to captain on deck,claude-opus-a
+2070_30_2__30_3,1,subject-to-subject,low,moment-to-moment,villain explains; woman questions and he answers in reversed view,claude-opus-a
+1593_28_2__28_3,1,scene-to-scene,medium,subject-to-subject,Maria signals from ship; cut to answering light on distant shore,claude-opus-a
+2225_21_1__21_2,1,subject-to-subject,medium,action-to-action,earthmen watch test; focus to Borla announcing readings mismatch,claude-opus-a
+2442_37_6__38_0,1,scene-to-scene,medium,,text caption WEEKS LATER and return to present,claude-opus-a
+3235_20_2__20_3,1,subject-to-subject,high,,sheriff orders surrender; robber emerges hands up,claude-opus-a
+2827_28_1__28_2,1,action-to-action,medium,subject-to-subject,boy kicks man; then picks up dropped bag while man hops,claude-opus-a
+1393_62_1__62_2,1,subject-to-subject,medium,scene-to-scene,boy heroes on lawn; cut to Nazis pouring out after explosion,claude-opus-a
+1393_19_2__19_3,1,subject-to-subject,high,,parson tips steward; caption two more passengers behind him,claude-opus-a
+1569_27_3__27_4,1,action-to-action,medium,subject-to-subject,Mr Long signs picture; boys thank him and leave,claude-opus-a
+966_9_4__9_5,1,subject-to-subject,medium,aspect-to-aspect,spies in disguise group; close-up of one spy asking for horse,claude-opus-a
+3406_20_4__21_0,1,action-to-action,medium,scene-to-scene,guerrillas set off; same group now creeping into town with wagon,claude-opus-a
+2625_8_3__8_4,1,subject-to-subject,high,,Phao falls from mast; cut to hero clinging to spar,claude-opus-a

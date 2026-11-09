@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+3334_23_2__23_3,1,action-to-action,medium,subject-to-subject,rope on wrists burns through; close-up of bound hands,claude-sonnet-b
+2142_59_4__59_5,1,subject-to-subject,medium,scene-to-scene,from Archie in coat to silhouettes of two walking at night,claude-sonnet-b
+1712_15_4__15_5,1,subject-to-subject,medium,scene-to-scene,from falling Master Man scene to kid and old man at fissure,claude-sonnet-b
+1146_56_0__56_1,1,subject-to-subject,high,,from floating police to gangster Skullface raving,claude-sonnet-b
+1752_1_2__1_3,0,,high,,ad page then table of contents; not story panels,claude-sonnet-b
+1271_49_0__49_1,1,scene-to-scene,medium,subject-to-subject,caption AT THAT MOMENT; cut from radio room to plane bombsight,claude-sonnet-b
+789_60_6__61_0,1,scene-to-scene,medium,non-sequitur,new story title splash for Cannonball Jones after previous strip,claude-sonnet-b
+793_12_3__12_4,1,action-to-action,high,,same man collapsed; reaches for stamp pad to leave clue,claude-sonnet-b
+3951_6_3__6_4,1,subject-to-subject,high,,from girl and intruder to close-up of Dr. Trapp explaining,claude-sonnet-b
+1752_39_5__39_6,1,scene-to-scene,high,,caption MEANWHILE; morgue to plague-ravaged city,claude-sonnet-b
+1050_23_1__23_2,1,subject-to-subject,medium,scene-to-scene,from admiral and sailor to planes on carrier deck,claude-sonnet-b
+3334_53_1__53_2,1,scene-to-scene,medium,action-to-action,from airfield to Hauptman Phake's swastika office,claude-sonnet-b
+1075_22_0__22_1,1,action-to-action,medium,subject-to-subject,man sits on chair and tumbles as owner objects,claude-sonnet-b
+3951_19_0__19_1,1,subject-to-subject,medium,action-to-action,heroes creeping to yard; fox with hen takes focus,claude-sonnet-b
+956_44_1__44_2,1,moment-to-moment,medium,action-to-action,same swimmer same pose; caption two minutes later; still stuck,claude-sonnet-b
+3693_23_3__23_4,1,subject-to-subject,medium,scene-to-scene,from defeated natives and queen to hero leading captives,claude-sonnet-b
+3751_48_3__48_4,1,action-to-action,low,subject-to-subject,Webb takes flags then close up signals with semaphore,claude-sonnet-b
+2438_21_1__21_2,1,subject-to-subject,medium,scene-to-scene,from fleeing people and bomb to Bozo robot; shouts reach Bozo,claude-sonnet-b
+414_7_3__7_4,1,subject-to-subject,medium,action-to-action,heroes arrive at museum; focus shifts to Fire Bug inside,claude-sonnet-b
+1712_11_5__11_6,1,action-to-action,medium,subject-to-subject,Torquemada in flames then speaks and summons instruments,claude-sonnet-b
+395_2_2__3_0,1,subject-to-subject,medium,,two plotters then boss and henchman in conversation,claude-sonnet-b
+282_21_1__21_2,1,subject-to-subject,medium,moment-to-moment,from pilot and inspector at plane to inspector and pilot talking,claude-sonnet-b
+2737_33_3__33_4,1,scene-to-scene,high,,caption BEFORE DAWN; park scene to agent alone in file room,claude-sonnet-b
+3783_23_2__23_3,1,subject-to-subject,low,moment-to-moment,sheriff to Casco speaking to group in same scene,claude-sonnet-b
+1271_9_3__9_4,1,subject-to-subject,low,action-to-action,cop beats boy; bar crowd laughs at silhouette,claude-sonnet-b
+1094_35_0__35_1,1,action-to-action,high,,fight continues; Chase draws gun,claude-sonnet-b
+1153_8_3__8_4,1,action-to-action,high,,same man plans then moves rock to narrow entrance,claude-sonnet-b
+1712_27_6__28_0,1,subject-to-subject,medium,action-to-action,airport crowd cheering then passengers deplaning with ambulance,claude-sonnet-b
+3823_28_0__28_1,1,subject-to-subject,medium,,caption SUDDENLY; from Sheena and man to gorilla,claude-sonnet-b
+3334_8_4__8_5,0,,medium,,text-only newspaper article fragment then headline fragment,claude-sonnet-b
+1352_33_2__33_3,1,scene-to-scene,high,,caption that evening; from store to hotel lobby,claude-sonnet-b
+860_23_1__23_2,1,subject-to-subject,medium,,from hero and Kortner to boss with gun accusing,claude-sonnet-b
+1593_24_5__24_6,1,subject-to-subject,medium,action-to-action,from old man and Mary to young man and old man talking,claude-sonnet-b
+3823_41_6__41_7,1,subject-to-subject,low,scene-to-scene,from eagle with knife to group of men talking,claude-sonnet-b
+282_33_0__33_1,1,subject-to-subject,medium,action-to-action,from Merlo to Bill holding Marian at gunpoint,claude-sonnet-b
+282_7_7__8_0,1,subject-to-subject,medium,scene-to-scene,syringe close-up then drugged Corey dream faces,claude-sonnet-b
+3747_36_1__36_2,1,scene-to-scene,medium,action-to-action,from car outside to inside studio; on air in one minute,claude-sonnet-b
+2600_7_6__7_7,1,subject-to-subject,medium,action-to-action,hero punches thug then enemy surrenders Kamarad,claude-sonnet-b
+2488_26_4__26_5,1,scene-to-scene,medium,subject-to-subject,flashback caption; present scene to past with dog,claude-sonnet-b
+2155_13_0__13_1,1,subject-to-subject,high,,Joe on phone then Dusty on the other end,claude-sonnet-b

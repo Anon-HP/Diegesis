@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+1978_6_7__7_0,1,scene-to-scene,medium,subject-to-subject,newspaper headline insert then police chief at headquarters; new place,claude-opus-a
+282_14_0__14_1,1,scene-to-scene,low,subject-to-subject,trapper threatens in woods; cut to Eskimo at distant cabin,claude-opus-a
+1322_18_0__18_1,1,subject-to-subject,high,action-to-action,door opens; focus shifts to Funnyman revealed inside,claude-opus-a
+2892_22_0__22_1,0,,,,overlapping crops of same splash title; fragment,claude-opus-a
+193_60_2__60_3,1,scene-to-scene,medium,action-to-action,inside shrinking ship then ship enters strange new world,claude-opus-a
+414_30_2__30_3,1,subject-to-subject,medium,action-to-action,pirate falls off cliff; heroes view his imprint below,claude-opus-a
+1200_11_1__11_2,1,moment-to-moment,low,action-to-action,same pilot keeps talking; changes mind; reframed exterior view,claude-opus-a
+2486_44_3__44_4,1,action-to-action,medium,subject-to-subject,man spots cabin cruiser then climbs aboard it,claude-opus-a
+1593_31_4__31_5,1,subject-to-subject,medium,action-to-action,cell breaks open; focus to blonde leading charge,claude-opus-a
+1290_18_3__18_4,1,subject-to-subject,medium,action-to-action,Boles threatens; then couple discuss him as he leaves,claude-opus-a
+3144_52_2__52_3,0,,,,Mini-Gym advertisement comic; not story,claude-opus-a
+2990_10_2__10_3,1,subject-to-subject,medium,scene-to-scene,fight in one compartment; cut to villains at controls same instant,claude-opus-a
+1944_48_7__49_0,1,action-to-action,high,moment-to-moment,boat capsizes then lands on Uncle Willie,claude-opus-a
+1633_17_3__17_4,1,subject-to-subject,high,action-to-action,panther stalks gazelle; cut to Simba watching,claude-opus-a
+3763_42_1__42_2,1,subject-to-subject,low,scene-to-scene,splash intro with burial; then leopard sneaks up,claude-opus-a
+1442_41_4__41_5,1,subject-to-subject,medium,action-to-action,lion leaps on Helder; Lion Boy holds lion back,claude-opus-a
+1822_18_5__18_6,1,scene-to-scene,high,,caption THE FOLLOWING DAY; new street location,claude-opus-a
+3495_36_1__36_2,1,subject-to-subject,high,,boys fighting; Hack O'Hara drives up,claude-opus-a
+189_13_4__13_5,1,action-to-action,high,,hero smashes through wall then tackles enemy,claude-opus-a
+1977_31_5__31_6,1,subject-to-subject,medium,action-to-action,officer reports tug leaving; young man throws chain,claude-opus-a
+8_23_0__23_1,1,action-to-action,medium,subject-to-subject,woman tears flowers; mists form shapes as she crosses bridge,claude-opus-a
+1943_26_1__26_2,1,subject-to-subject,medium,action-to-action,heroes fire gatling guns; cut to outlaws surrendering,claude-opus-a
+2513_33_4__33_5,1,action-to-action,medium,subject-to-subject,man leads him to room; then they find burnt body,claude-opus-a
+1442_11_0__11_1,1,action-to-action,high,,hero gets into car then drives spotting fleeing car,claude-opus-a
+1039_57_1__57_2,1,action-to-action,low,subject-to-subject,villain threatens death; then shot fired in struggle,claude-opus-a
+860_4_1__4_2,1,scene-to-scene,low,subject-to-subject,street gunfight; cut to men talking inside cantina,claude-opus-a
+1348_8_0__8_1,1,action-to-action,low,moment-to-moment,same woman thinking; from shipping office to aboard close-up,claude-opus-a
+3408_43_0__43_1,1,subject-to-subject,medium,action-to-action,thugs spot Black Angel; cut to butcher throwing axe,claude-opus-a
+1584_50_11__51_0,1,subject-to-subject,medium,action-to-action,hero climbs to balcony; focus to Sin Fu held up,claude-opus-a
+2152_14_2__14_3,0,,,,overlapping crops of one splash layout with inset circle,claude-opus-a
+262_15_10__15_11,1,subject-to-subject,medium,moment-to-moment,man speaks; cut to woman replying in conversation,claude-opus-a
+297_15_2__15_3,1,action-to-action,low,subject-to-subject,man points to bridge; cop shines light revealing tom cat,claude-opus-a
+3673_39_2__39_3,1,subject-to-subject,medium,scene-to-scene,warriors hide cave; caption minutes later; spy lifts leaves,claude-opus-a
+3046_61_5__61_6,1,subject-to-subject,high,,hero sees masters; cut to priest speaking,claude-opus-a
+789_6_0__6_1,1,subject-to-subject,low,action-to-action,flying monsters; then heroes flying as creatures attack; odd crop,claude-opus-a
+1964_19_0__19_1,1,subject-to-subject,medium,,dummy test result; cut to men arguing,claude-opus-a
+1726_22_0__22_1,1,subject-to-subject,medium,action-to-action,pilot asks about plan; Brady answers explaining ramming,claude-opus-a
+3367_51_3__51_4,1,subject-to-subject,low,moment-to-moment,two-shot of Satan and Mary; close-up on Mary explaining,claude-opus-a
+1498_17_1__17_2,0,,,,panel B is text-only narration fragment,claude-opus-a
+1726_30_2__30_3,1,action-to-action,high,,Lars flying then diving in to land,claude-opus-a

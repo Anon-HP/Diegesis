@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+1593_24_1__24_2,1,subject-to-subject,high,action-to-action,woman fires gun; cut to man reacting she missed,claude-opus-a
+1271_21_2__21_3,1,subject-to-subject,high,moment-to-moment,gangster gives deadline; cut to victim replying in shock,claude-opus-a
+3783_3_2__3_3,1,subject-to-subject,medium,scene-to-scene,chief speaking; new warriors arrive reporting commotion,claude-opus-a
+2737_43_1__43_2,1,action-to-action,medium,subject-to-subject,car confiscated; then truck driven away as men watch,claude-opus-a
+1752_53_1__53_2,1,subject-to-subject,high,,woman speaks; cut to man looking at mirror replying,claude-opus-a
+1146_20_0__20_1,1,action-to-action,medium,subject-to-subject,man sees bird; then grapples with its leg,claude-opus-a
+860_29_0__29_1,1,scene-to-scene,medium,action-to-action,caption A HALF HOUR LATER; rider now at canyon stream,claude-opus-a
+956_55_3__55_4,1,scene-to-scene,high,subject-to-subject,officer at door; caption ship putting to sea at midnight,claude-opus-a
+211_15_1__15_2,1,scene-to-scene,medium,action-to-action,stage door then waterfront; location jump bridged by stated shortcut,claude-opus-a
+1593_9_4__9_5,1,scene-to-scene,medium,subject-to-subject,caption WHILE; cut to Bob's canoe group elsewhere on river,claude-opus-a
+1153_5_2__5_3,1,action-to-action,high,,same cowboy; stands over outlaw then lifts him,claude-opus-a
+703_2_1__2_2,1,subject-to-subject,high,action-to-action,boy with jammed rifle; partner throws blackout bomb,claude-opus-a
+1352_2_3__2_4,1,scene-to-scene,high,,caption THE NEXT MORNING; new location office,claude-opus-a
+1150_13_2__13_3,1,scene-to-scene,high,,caption NEXT DAY; car street to Joyce's home,claude-opus-a
+395_18_4__18_5,1,scene-to-scene,high,,caption THAT NIGHT; Billy returns for hidden buddy,claude-opus-a
+3008_36_6__36_7,1,action-to-action,low,subject-to-subject,hero and Mickey take leave; then wave farewell to readers,claude-opus-a
+2155_3_2__3_3,1,scene-to-scene,high,action-to-action,caption A LITTLE LATER; town street to rundown mansion,claude-opus-a
+1593_30_5__30_6,1,subject-to-subject,medium,action-to-action,warning about Banderas; Banderas clubs Hawk with Maria beside,claude-opus-a
+2155_34_0__34_1,0,,,,title splash and overlapping crop of same splash; not consecutive panels,claude-opus-a
+1094_35_1__35_2,1,action-to-action,high,,same two men; gun drawn then opponent choked out,claude-opus-a
+789_37_2__37_3,1,action-to-action,medium,subject-to-subject,master orders phone answered; now up and insisting again,claude-opus-a
+3823_26_0__26_1,1,subject-to-subject,medium,action-to-action,group hears drums; focus shifts to Sheena preparing food,claude-opus-a
+1150_13_4__13_5,1,action-to-action,high,,same couple; chatting then Joyce hugs Wilbur,claude-opus-a
+1712_9_1__9_2,1,subject-to-subject,medium,action-to-action,coach straight-arms convict; cut to young man praising him,claude-opus-a
+703_19_2__19_3,1,action-to-action,high,,men run through jungle; then find the shot dog,claude-opus-a
+2543_28_0__28_1,1,subject-to-subject,medium,action-to-action,banker and hero by gold; cowboy hands banker ticket,claude-opus-a
+1146_17_0__17_1,1,scene-to-scene,high,,caption LATER; Adele speaks to Flip elsewhere,claude-opus-a
+3693_5_0__5_1,1,subject-to-subject,medium,action-to-action,watchers above warn Kaanga; cut to Kaanga already alert,claude-opus-a
+2600_51_2__51_3,0,,,,panel A is only title lettering fragment of splash,claude-opus-a
+1050_36_0__36_1,1,scene-to-scene,high,,office meeting then desert beside ship; location jump,claude-opus-a
+2159_7_2__7_3,1,action-to-action,medium,subject-to-subject,man shakes unconscious Archie; Archie wakes and grabs him,claude-opus-a
+3751_33_3__33_4,1,action-to-action,medium,scene-to-scene,hero douses fire; caption OUTSIDE he spots nails,claude-opus-a
+2600_10_0__10_1,1,subject-to-subject,low,aspect-to-aspect,Hitler orders privacy; dark panel continues exchange with others,claude-opus-a
+2159_16_0__16_1,1,subject-to-subject,high,action-to-action,man throws 8-ball; cut to victim being hit,claude-opus-a
+3751_66_0__66_1,1,subject-to-subject,high,,giant threatens; cut to Nazis fleeing,claude-opus-a
+3823_35_0__35_1,1,subject-to-subject,medium,action-to-action,chimp plunges; focus moves to snarling panther,claude-opus-a
+2438_25_1__25_2,1,subject-to-subject,high,,bound hero thinking; cut to villain ordering guide,claude-opus-a
+1352_18_0__18_1,1,action-to-action,medium,subject-to-subject,goodbyes at house; Kay waves as car departs,claude-opus-a
+789_18_1__18_2,1,scene-to-scene,high,,caption MEANWHILE; riders reach shack elsewhere,claude-opus-a
+793_25_1__25_2,1,scene-to-scene,medium,,splash title panel then story opens in German city caption,claude-opus-a

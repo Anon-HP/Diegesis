@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2458_8_5__8_6,1,scene-to-scene,high,action-to-action,caption EARLY NEXT MORNING; Chick returns to temple,claude-opus-a
+2158_45_5__46_0,0,,high,,A ends story CONTINUED; B is title logo of different story,claude-opus-a
+45_26_10__26_11,1,subject-to-subject,medium,scene-to-scene,cut from hugging couple to other man in bushes worrying,claude-opus-a
+315_22_1__22_2,1,scene-to-scene,high,,caption NEXT DAY; trophy ceremony to newsreel screening,claude-opus-a
+3783_33_3__34_0,1,scene-to-scene,high,,caption ONE WEEK LATER; Preacher now present,claude-opus-a
+376_32_0__32_1,1,subject-to-subject,medium,moment-to-moment,boy speaks in A; close-up of grandma reacting in B,claude-opus-a
+2486_8_0__8_1,1,subject-to-subject,medium,action-to-action,chief speaks; cut to brave crouching reading marks,claude-opus-a
+1462_50_5__51_0,1,action-to-action,medium,,Don rides kiddie car then rams captive into sentry,claude-opus-a
+3020_22_6__22_7,1,action-to-action,high,,witch casts spell; broom whooshes off,claude-opus-a
+1633_45_4__45_5,1,action-to-action,medium,subject-to-subject,same pair talking; then net drops and traps them,claude-opus-a
+958_55_2__55_3,1,subject-to-subject,low,scene-to-scene,windmill exterior then masked leader addressing crowd inside,claude-opus-a
+1287_14_5__14_6,1,scene-to-scene,medium,subject-to-subject,caption MEANWHILE; cut to Magno fighting elsewhere,claude-opus-a
+3951_36_0__36_1,1,subject-to-subject,medium,moment-to-moment,group conversation; focus shifts to shopkeeper speaking,claude-opus-a
+1128_59_2__59_3,1,action-to-action,medium,scene-to-scene,girl poses to dance then dances before royal family,claude-opus-a
+2753_12_2__12_3,1,moment-to-moment,medium,subject-to-subject,same two men continue dialogue; closer framing,claude-opus-a
+3751_63_4__63_5,1,subject-to-subject,high,action-to-action,officer orders; cut to close-up of hand placing hissing grenade,claude-opus-a
+2493_49_5__50_0,1,action-to-action,high,,wolf-boy stumbles before rhino; then hurls himself aside,claude-opus-a
+1094_48_3__48_4,1,action-to-action,medium,subject-to-subject,man waits at door; then enters and spots figure at safe,claude-opus-a
+1822_15_4__15_5,1,scene-to-scene,high,,caption LATER THAT AFTERNOON; new place with family walking,claude-opus-a
+659_21_5__21_6,1,subject-to-subject,medium,action-to-action,heroes spot crooks; focus shifts to crook fleeing,claude-opus-a
+789_38_3__38_4,1,subject-to-subject,high,,man reads; cut to close-up of the threatening note,claude-opus-a
+2265_44_1__44_2,1,subject-to-subject,medium,moment-to-moment,gunman threatens; reverse angle with woman asking and gunman answering,claude-opus-a
+2625_9_0__9_1,1,action-to-action,high,,same man perched on needle; then slides down it,claude-opus-a
+3408_65_2__65_3,1,subject-to-subject,medium,moment-to-moment,undertaker speaks; close-up of Von Richter shocked reaction,claude-opus-a
+2916_27_0__27_1,1,action-to-action,medium,scene-to-scene,sheriff party sets out; then creeping outside at night,claude-opus-a
+414_26_4__26_5,1,scene-to-scene,medium,action-to-action,Linda says goodnight at camp; later in bed at night,claude-opus-a
+1149_26_0__26_1,0,,medium,,overlapping crops of same splash title panel; fragment,claude-opus-a
+2600_8_3__8_4,1,subject-to-subject,low,moment-to-moment,interrogation continues; closer reverse framing on spies and hero,claude-opus-a
+1584_12_3__12_4,1,scene-to-scene,high,,caption MEANWHILE AT THE VILLAGE; different characters,claude-opus-a
+1128_60_4__61_0,1,moment-to-moment,medium,subject-to-subject,same sisters keep pleading with Merla; closer framing,claude-opus-a
+991_44_0__44_1,1,action-to-action,high,subject-to-subject,hero enters room; then finds and points at dead body,claude-opus-a
+609_25_3__25_4,1,subject-to-subject,medium,action-to-action,Ali knocks hero out; cut to Captain Battle reading note,claude-opus-a
+789_48_0__48_1,1,subject-to-subject,high,,Jake gives warning; diver replies to him,claude-opus-a
+420_41_1__41_2,1,action-to-action,medium,scene-to-scene,John reads in bed; hears noise and gets up,claude-opus-a
+956_10_7__11_0,1,action-to-action,medium,,same masked man leaps; then sinks into ground,claude-opus-a
+539_45_3__45_4,1,action-to-action,medium,moment-to-moment,Payne shakes hands; then seated describing pain,claude-opus-a
+1075_19_4__19_5,1,action-to-action,medium,moment-to-moment,bull ponders; then snaps fingers with idea,claude-opus-a
+2438_61_7__62_0,1,scene-to-scene,medium,subject-to-subject,caption MOMENTS LATER IN THE GENERAL'S OFFICE; new location,claude-opus-a
+1827_28_3__28_4,1,moment-to-moment,low,subject-to-subject,lawman walking; then close-up portrait introducing Wyatt Earp,claude-opus-a
+3369_25_2__25_3,1,action-to-action,medium,subject-to-subject,ranger interrogates; men return and he escapes through window,claude-opus-a

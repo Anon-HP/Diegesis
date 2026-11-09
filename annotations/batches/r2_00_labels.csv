@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+657_42_0__42_1,1,subject-to-subject,medium,scene-to-scene,caption: enemy planes find meeting place; focus moves from woman and general to attacking planes,claude-opus-a
+2158_43_0__43_1,1,action-to-action,high,,rock dropped on seesaw launches man into air; BONG,claude-opus-a
+860_20_1__20_2,1,subject-to-subject,medium,moment-to-moment,doorway conversation; focus shifts from Bob to Tim replying,claude-opus-a
+2438_26_0__26_1,1,subject-to-subject,medium,action-to-action,gunman shoots; cut to flaming skeleton confronting convicts,claude-opus-a
+852_18_3__18_4,1,subject-to-subject,medium,action-to-action,brawl; then focus on other cowboys and sheriff entering saloon,claude-opus-a
+1101_34_5__35_0,1,subject-to-subject,medium,action-to-action,Liberator spins wheel; cut to spies hurled from perch,claude-opus-a
+3144_35_5__35_6,1,action-to-action,medium,subject-to-subject,man enters apartment; then inside finds dummy greeting him,claude-opus-a
+2556_13_4__13_5,1,scene-to-scene,medium,action-to-action,caption SOON; gang handed over to commissioner in new setting,claude-opus-a
+1199_57_7__58_0,1,scene-to-scene,medium,action-to-action,night street caption decision; then gang at bank in daylight,claude-opus-a
+2511_38_4__38_5,1,subject-to-subject,medium,moment-to-moment,group exchange; focus shifts to young man explaining the trick,claude-opus-a
+1977_18_5__18_6,1,scene-to-scene,medium,action-to-action,street with cop; then kid at police station later,claude-opus-a
+2206_51_0__51_1,0,,,,title logo split into two fragments; not story panels,claude-opus-a
+3408_11_3__11_4,1,subject-to-subject,medium,aspect-to-aspect,watchers below; cut to pilots in dogfight,claude-opus-a
+942_27_3__27_4,1,action-to-action,medium,moment-to-moment,same pair; held at gunpoint then flying plane complying,claude-opus-a
+609_10_5__11_0,1,action-to-action,high,,Ali runs then lifts beam to strike,claude-opus-a
+926_25_1__25_2,1,subject-to-subject,medium,action-to-action,Spiro pleads; then manager rebukes and walks off,claude-opus-a
+2964_12_5__12_6,1,subject-to-subject,high,action-to-action,Luke fires shotgun; cut to scarecrow skull speaking,claude-opus-a
+2964_18_1__18_2,1,action-to-action,high,,drowning man then sinks leaving only hand; GLUG,claude-opus-a
+3582_1_1__2_0,0,,,,panel A is an advertisement,claude-opus-a
+3080_31_4__31_5,1,scene-to-scene,high,action-to-action,caption LATER; couple now on street,claude-opus-a
+193_59_0__59_1,1,scene-to-scene,high,,caption A WEEK LATER; ship in starfield,claude-opus-a
+3449_31_7__32_0,0,,,,panel A is an advertisement; B a story splash,claude-opus-a
+1286_4_6__4_7,1,subject-to-subject,low,scene-to-scene,truck arrives outside cafe; cut inside to Nazi giving orders,claude-opus-a
+3783_21_1__21_2,1,subject-to-subject,medium,action-to-action,culprit accused; focus shifts to sheriff leading him away,claude-opus-a
+755_55_4__55_5,1,subject-to-subject,high,,Tom slips off coach; cut to highwayman firing pistol,claude-opus-a
+1149_18_5__18_6,1,action-to-action,high,,stumble then falling down steps; captions continue,claude-opus-a
+3783_36_3__36_4,1,scene-to-scene,high,,caption AND MILES AWAY; different character,claude-opus-a
+3238_6_7__7_0,1,action-to-action,medium,subject-to-subject,attack on girl then her body limp; friends scream,claude-opus-a
+1714_30_0__30_1,1,action-to-action,medium,scene-to-scene,pair enters warehouse door then inside office,claude-opus-a
+2583_15_0__15_1,1,scene-to-scene,medium,subject-to-subject,caption LONG MOMENTS LATER; native hunter to Sheena swimming,claude-opus-a
+2990_46_6__47_0,1,action-to-action,medium,subject-to-subject,same two pilots argue then fist fight,claude-opus-a
+1433_14_4__14_5,1,scene-to-scene,high,,caption MEANWHILE IN THE MINES,claude-opus-a
+2198_62_0__62_1,1,scene-to-scene,medium,action-to-action,battle in sky; then Red Comet waking after being knocked out,claude-opus-a
+188_23_2__23_3,1,action-to-action,medium,subject-to-subject,captions continue: skull keeps going and wrecks circus,claude-opus-a
+3034_2_0__2_1,0,,,,both panels are an advertisement,claude-opus-a
+2600_18_4__18_5,1,action-to-action,medium,subject-to-subject,heroine drives car then leaps at man on train,claude-opus-a
+2121_35_3__35_4,1,subject-to-subject,low,scene-to-scene,boots talk; then cook serving food to diners,claude-opus-a
+789_53_3__53_4,1,action-to-action,high,,kid bats seal; seal knocked out and kid puzzled,claude-opus-a
+1153_18_1__18_2,1,subject-to-subject,medium,moment-to-moment,Bob speaks; Fargo replies alone in close-up,claude-opus-a
+1056_39_0__39_1,1,subject-to-subject,medium,action-to-action,couple jump in water; caption zamoids attracted and attack,claude-opus-a

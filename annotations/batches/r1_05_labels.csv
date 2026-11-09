@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2142_4_1__4_2,1,scene-to-scene,medium,subject-to-subject,caption LATER; new setting with Joe and Dusty instead of Hoover office,claude-opus-a
+1153_31_2__31_3,1,action-to-action,medium,subject-to-subject,Haddon dashes for door then dives outside; continued action,claude-opus-a
+3751_56_0__56_1,1,subject-to-subject,high,moment-to-moment,first man exits window; then second man at window,claude-opus-a
+1712_23_0__23_1,1,action-to-action,medium,subject-to-subject,box handed over then opened revealing mink coat,claude-opus-a
+1150_24_4__24_5,1,scene-to-scene,medium,subject-to-subject,castle explodes; then newspaper report later elsewhere,claude-opus-a
+1153_19_0__19_1,1,scene-to-scene,high,,caption A FEW DAYS LATER; town then trail camp,claude-opus-a
+3579_28_1__28_2,1,subject-to-subject,medium,action-to-action,rider charges; cut to skull face confronting screaming Cochalla,claude-opus-a
+1075_17_1__17_2,1,action-to-action,high,,character rams bottle; bottle shatters PLOP,claude-opus-a
+2438_9_6__9_7,1,action-to-action,medium,scene-to-scene,hero rises on beam then arrives in plane giving orders,claude-opus-a
+703_11_4__11_5,1,moment-to-moment,medium,subject-to-subject,same two men continue joke; reply follows question immediately,claude-opus-a
+1094_7_0__7_1,1,scene-to-scene,medium,subject-to-subject,lab examination then Harpy assembly voting; caption names new place,claude-opus-a
+2488_36_6__36_7,0,,,,panel B is an air pistol advertisement,claude-opus-a
+3579_16_2__16_3,1,subject-to-subject,high,,Bulk Walker confesses; cut to Ghost Rider revealing trick,claude-opus-a
+2159_14_2__14_3,1,subject-to-subject,medium,scene-to-scene,phone call; cut from Dusty speaking to Joe on other end,claude-opus-a
+1943_24_6__25_0,1,action-to-action,high,,Monte plans crawl then leaps and strikes guard,claude-opus-a
+2737_6_4__6_5,1,subject-to-subject,high,,villains talk in apartment; cut to blonde woman confronting them,claude-opus-a
+1406_15_2__15_3,1,action-to-action,medium,subject-to-subject,blond kid kicks one boy then punches another; brawl continues,claude-opus-a
+414_8_3__8_4,1,action-to-action,low,subject-to-subject,heroines flee smoke then outside spot the firebug; continuous movement,claude-opus-a
+395_13_0__13_1,1,subject-to-subject,medium,action-to-action,Billy watches whipping; then confronts Talbert who replies,claude-opus-a
+3751_33_5__33_6,1,action-to-action,high,,Wonder Boy races with nails then hurls them at car,claude-opus-a
+1943_3_3__3_4,1,aspect-to-aspect,medium,scene-to-scene,train depot then caption EVERYWHERE; montage of standstill idea,claude-opus-a
+3783_6_2__6_3,1,action-to-action,high,,same rider flees pursuers deeper toward the falls,claude-opus-a
+1150_30_6__31_0,1,scene-to-scene,medium,action-to-action,caption A FEW HOURS PASS; same bedroom next morning,claude-opus-a
+414_26_3__26_4,1,scene-to-scene,high,,flashback beach bodies then caption ten o'clock at camp,claude-opus-a
+1406_42_3__42_4,1,action-to-action,medium,subject-to-subject,riders arrive and greet; then dismount and Jenkins introduces himself,claude-opus-a
+2159_31_5__32_0,1,scene-to-scene,medium,subject-to-subject,couple plots; cut to Gramps alone in another room,claude-opus-a
+2142_2_0__2_1,0,,,,panel B is an enlarged crop of the same splash panel,claude-opus-a
+2488_23_2__23_3,1,action-to-action,medium,scene-to-scene,group talks in jungle then walks to graveyard,claude-opus-a
+2737_42_5__42_6,1,subject-to-subject,high,,boy drops gun; cut to woman holding them at gunpoint,claude-opus-a
+282_10_3__10_4,1,action-to-action,medium,subject-to-subject,Sandy holds gun then swings it on the girl,claude-opus-a
+1352_13_1__13_2,1,moment-to-moment,low,action-to-action,narrator caption in taxi; then same woman in taxi still musing,claude-opus-a
+789_5_2__5_3,1,action-to-action,high,,giants grapple; Mystic pins opponent and rips mask off,claude-opus-a
+1146_40_0__40_1,1,action-to-action,medium,subject-to-subject,Kidd spotted escaping; guard hurls spear which Kidd catches,claude-opus-a
+3823_50_5__50_6,1,subject-to-subject,medium,action-to-action,heroine questions native; then native points to hut and man answers,claude-opus-a
+703_19_0__19_1,0,,,,panel A is a paper airplane cutout activity page,claude-opus-a
+2142_29_1__30_0,1,scene-to-scene,low,subject-to-subject,title splash then story opens with soldiers in desert,claude-opus-a
+860_5_5__5_6,1,subject-to-subject,high,,dictator and premier argue; cut to Cataro answering,claude-opus-a
+395_11_2__11_3,1,action-to-action,medium,subject-to-subject,Billy talks to Pete then turns and rides off alone,claude-opus-a
+211_40_2__40_3,1,action-to-action,high,,man yanked into water by line; then underwater with fish,claude-opus-a
+2142_47_1__47_2,1,action-to-action,high,,Boyle leaps in then punches the man,claude-opus-a

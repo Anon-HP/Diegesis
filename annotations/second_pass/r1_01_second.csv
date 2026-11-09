@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+1593_24_1__24_2,1,subject-to-subject,high,,from woman firing gun to hero reacting She missed,claude-sonnet-b
+1271_21_2__21_3,1,moment-to-moment,medium,subject-to-subject,same man in dinner jacket reacts to ultimatum; same setting,claude-sonnet-b
+3783_3_2__3_3,1,subject-to-subject,medium,scene-to-scene,chief speaking then warriors reporting commotion in village,claude-sonnet-b
+2737_43_1__43_2,1,scene-to-scene,low,subject-to-subject,truck confiscation then different setting with truck and new commentary,claude-sonnet-b
+1752_53_1__53_2,1,subject-to-subject,high,,from woman speaking to man looking at his reflection,claude-sonnet-b
+1146_20_0__20_1,1,subject-to-subject,medium,action-to-action,from vulture overhead to hero grabbing its leg,claude-sonnet-b
+860_29_0__29_1,1,scene-to-scene,medium,action-to-action,caption A half hour later; Whip rides after discovering bodies,claude-sonnet-b
+956_55_3__55_4,1,scene-to-scene,medium,subject-to-subject,officers on deck then caption putting to sea; ship at night,claude-sonnet-b
+211_15_1__15_2,1,action-to-action,high,,same man leaves stage door and walks along waterfront,claude-sonnet-b
+1593_9_4__9_5,1,scene-to-scene,high,,caption WHILE; raft party to other group in canoes,claude-sonnet-b
+1153_5_2__5_3,1,action-to-action,high,,hero stands over fallen outlaw then picks him up to carry,claude-sonnet-b
+703_2_1__2_2,1,action-to-action,medium,subject-to-subject,rifle jams then man throws blackout bomb while boy kneels,claude-sonnet-b
+1352_2_3__2_4,1,scene-to-scene,high,,caption next morning at Julian's office,claude-sonnet-b
+1150_13_2__13_3,1,scene-to-scene,high,,caption Next day Wilbur comes to call,claude-sonnet-b
+395_18_4__18_5,1,scene-to-scene,high,,caption That night Billy returns for buddy,claude-sonnet-b
+3008_36_6__36_7,1,moment-to-moment,low,subject-to-subject,same hero and boy; closing sign-off panel after final dialogue,claude-sonnet-b
+2155_3_2__3_3,1,scene-to-scene,high,,caption A little later; from town street to the mansion,claude-sonnet-b
+1593_30_5__30_6,1,subject-to-subject,medium,action-to-action,sword brawl then Bandera strikes Hawk with Maria watching,claude-sonnet-b
+2155_34_0__34_1,0,,medium,,title splash cropped fragments; not consecutive story panels,claude-sonnet-b
+1094_35_1__35_2,1,action-to-action,high,,fight ends; Chase knocks out foe and leaves,claude-sonnet-b
+789_37_2__37_3,1,moment-to-moment,medium,subject-to-subject,same two characters same framing; speaker continues the exchange,claude-sonnet-b
+3823_26_0__26_1,1,action-to-action,low,subject-to-subject,group listens to drums then Sheena cooks as man asks,claude-sonnet-b
+1150_13_4__13_5,1,action-to-action,medium,,same two characters; talk leads to embrace and kiss,claude-sonnet-b
+1712_9_1__9_2,1,subject-to-subject,medium,scene-to-scene,guard punches convict then talks with companion about next plan,claude-sonnet-b
+703_19_2__19_3,1,action-to-action,medium,scene-to-scene,men searching jungle then close on them finding dead watchdog,claude-sonnet-b
+2543_28_0__28_1,1,action-to-action,medium,subject-to-subject,gold counted then man hands ticket to Ricker as Reckon watches,claude-sonnet-b
+1146_17_0__17_1,1,scene-to-scene,high,,caption Later Adele speaks to Flip; new setting,claude-sonnet-b
+3693_5_0__5_1,1,subject-to-subject,medium,action-to-action,Kaanga on elephant then jungle lord beside fallen man,claude-sonnet-b
+2600_51_2__51_3,0,,medium,,title logo fragment then unrelated story panel crop,claude-sonnet-b
+1050_36_0__36_1,1,scene-to-scene,high,,caption Thirty minutes later; office to desert near ship,claude-sonnet-b
+2159_7_2__7_3,1,action-to-action,medium,moment-to-moment,dazed kid wakes and grabs man shouting about his eyes,claude-sonnet-b
+3751_33_3__33_4,1,action-to-action,medium,,Wonder Boy douses fire then spots fleeing crooks,claude-sonnet-b
+2600_10_0__10_1,1,subject-to-subject,low,moment-to-moment,Nazi officers and prisoner then Fuehrer speech balloons continuing,claude-sonnet-b
+2159_16_0__16_1,1,subject-to-subject,medium,action-to-action,thug hurls eight ball then it hits man and hero,claude-sonnet-b
+3751_66_0__66_1,1,subject-to-subject,high,,from bearded man's threat to Nazis fleeing,claude-sonnet-b
+3823_35_0__35_1,1,subject-to-subject,high,,from diving chimp to snarling panther,claude-sonnet-b
+2438_25_1__25_2,1,subject-to-subject,medium,,from hero and girl in cave to man ordering guide,claude-sonnet-b
+1352_18_0__18_1,1,action-to-action,low,moment-to-moment,Kay leaves the house then close up thinking about posing,claude-sonnet-b
+789_18_1__18_2,1,scene-to-scene,high,,caption MEANWHILE; riders at cabin elsewhere,claude-sonnet-b
+793_25_1__25_2,1,scene-to-scene,medium,non-sequitur,splash with hero then caption introduces German city sentry,claude-sonnet-b

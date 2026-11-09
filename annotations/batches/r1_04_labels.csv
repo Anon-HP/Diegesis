@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2737_6_1__6_2,1,subject-to-subject,medium,moment-to-moment,woman talks in A; B shifts focus to man replying in close-up,claude-opus-a
+1146_13_2__13_3,1,action-to-action,high,,same strongman grabs foe then swings him upside down,claude-opus-a
+956_19_7__20_0,1,subject-to-subject,high,,woman screams; cut to the Claw atop building shouting,claude-opus-a
+3747_37_6__38_0,1,scene-to-scene,medium,action-to-action,caption Minutes later; same pair moved from stage to park fountain,claude-opus-a
+2438_58_1__58_2,1,action-to-action,high,,rookie climbs ladder then arrives on roof near skylight,claude-opus-a
+2543_32_4__32_5,0,,,,,claude-opus-a
+2488_2_1__3_0,0,,,,,claude-opus-a
+2543_11_6__11_7,0,,,,,claude-opus-a
+1050_17_1__17_2,1,action-to-action,medium,subject-to-subject,same intruders ransacking; owner arrives and they flee crashing,claude-opus-a
+414_15_3__15_4,1,action-to-action,medium,,same woman finds door locked then walks off carrying gown,claude-opus-a
+3783_36_4__36_5,1,scene-to-scene,high,,captions miles away and So later; prospector then town sheriff office,claude-opus-a
+956_36_3__37_0,1,action-to-action,medium,scene-to-scene,robbers run from bank to car then drive off together,claude-opus-a
+3863_28_1__28_2,1,subject-to-subject,medium,action-to-action,turbaned men talk; cut to clawed hand threatening Mr Risk,claude-opus-a
+2543_5_0__5_1,1,action-to-action,medium,scene-to-scene,caption few minutes later; same saloon group loads wounded,claude-opus-a
+1153_30_7__31_0,1,subject-to-subject,medium,,outlaw tosses gun to Al; cut to different gunman in green,claude-opus-a
+3579_31_0__31_1,1,moment-to-moment,low,action-to-action,caption-only panel describes Apaches firing; B shows same instant,claude-opus-a
+1094_38_3__38_4,1,scene-to-scene,high,,caption That night; Dan moves to dark street near bank,claude-opus-a
+1593_11_5__11_6,1,subject-to-subject,medium,action-to-action,rider charges seen from behind; B centres on Sheena reacting,claude-opus-a
+3579_14_1__14_2,1,subject-to-subject,medium,action-to-action,villain threatens woman; Ghost Rider seizes him and speaks,claude-opus-a
+3008_14_0__15_0,1,scene-to-scene,medium,subject-to-subject,title splash then story opens at toy truck with kids,claude-opus-a
+793_7_7__8_0,1,action-to-action,high,,hero ordered to prison then marched into cave prison,claude-opus-a
+3747_12_3__12_4,1,scene-to-scene,high,,caption deep in town's oldest section; different characters and place,claude-opus-a
+2488_2_0__2_1,0,,,,,claude-opus-a
+1712_32_3__32_4,1,subject-to-subject,medium,,Diaz slaps henchman; B focus on man in hat giving orders,claude-opus-a
+3693_9_0__9_1,1,scene-to-scene,low,action-to-action,caption-only By now raiders crossed swamps; B shows party riding,claude-opus-a
+1050_22_1__22_2,1,action-to-action,medium,,same man shot then shot again while gunman threatens,claude-opus-a
+3008_35_4__35_5,1,action-to-action,high,,same two officers; one hums then slaps the other,claude-opus-a
+2155_38_6__39_0,1,action-to-action,medium,scene-to-scene,commandos set out; then caption suddenly fire cuts them down,claude-opus-a
+2155_48_7__48_8,1,scene-to-scene,medium,subject-to-subject,caption Later; knighting in court then outdoors with Merlin,claude-opus-a
+3951_34_1__34_2,1,action-to-action,medium,scene-to-scene,Louie outside with foreman; after he leaves Louie phones for help,claude-opus-a
+211_84_2__85_0,0,,,,,claude-opus-a
+1406_11_5__12_0,1,subject-to-subject,low,scene-to-scene,boys on boat; cut to stowaway clinging to speeding boat,claude-opus-a
+3008_50_6__51_0,1,subject-to-subject,medium,scene-to-scene,caption Meanwhile villains escape; B hero and police trailing them,claude-opus-a
+789_15_4__15_5,1,action-to-action,medium,scene-to-scene,Johnny plans to move boards; B he pries boards at window,claude-opus-a
+1271_35_1__35_2,1,subject-to-subject,medium,action-to-action,Draco punches soldier; B hero grabs Draco's leg,claude-opus-a
+3008_40_5__41_0,1,action-to-action,high,,Lucky plunges at enemy then punches him WHAM,claude-opus-a
+860_7_1__7_2,1,scene-to-scene,high,,caption Later at the hotel; new setting with Lita approaching,claude-opus-a
+211_47_1__47_2,1,action-to-action,high,,heroes fly toward figures then knock them down,claude-opus-a
+793_11_4__12_0,1,action-to-action,medium,moment-to-moment,same man talks of seal then opens the safe,claude-opus-a
+3747_3_6__4_0,1,subject-to-subject,medium,scene-to-scene,Blackhawk with official; B Blackhawk addresses his waiting men,claude-opus-a

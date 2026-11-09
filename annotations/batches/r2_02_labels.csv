@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2493_43_4__43_5,1,action-to-action,medium,moment-to-moment,same shaman; shifts from scolding to summoning Thunderbird with staff,claude-opus-a
+3235_41_3__41_4,1,subject-to-subject,medium,scene-to-scene,cut from Spy Smasher rescuing pal to the Mask boarding coaster; caption WHILE,claude-opus-a
+123_27_2__27_3,1,scene-to-scene,medium,subject-to-subject,caption IN THE LOCKER ROOM; new location and different men,claude-opus-a
+609_70_3__70_4,0,,high,,advertisement for Daisy air rifles,claude-opus-a
+1977_28_1__28_2,1,subject-to-subject,low,aspect-to-aspect,establishing caption over sea then focus on Drake in boat,claude-opus-a
+789_16_5__16_6,1,subject-to-subject,medium,action-to-action,cut from written note to rider reacting and leading posse,claude-opus-a
+3773_27_1__27_2,1,subject-to-subject,medium,action-to-action,Alan warns then cut to Dave acting against monster,claude-opus-a
+1416_50_1__50_2,1,moment-to-moment,low,subject-to-subject,same two men continue doll argument; reframed with thugs added,claude-opus-a
+3369_60_4__60_5,1,subject-to-subject,high,,penguins then cut to turbaned hero speaking,claude-opus-a
+1752_31_7__32_0,1,action-to-action,high,,hero crashes through window then strikes villain,claude-opus-a
+1039_46_2__46_3,1,subject-to-subject,medium,aspect-to-aspect,introductions move from Peter to stepmother and father in same room,claude-opus-a
+189_8_1__8_2,1,action-to-action,medium,subject-to-subject,hero shrugs off pebbles then grabs thug to interrogate,claude-opus-a
+189_24_0__24_1,1,subject-to-subject,high,,man fires gun then cut to girl hit underwater; caption LUCKY SHOT,claude-opus-a
+900_22_3__22_4,1,action-to-action,medium,subject-to-subject,argument between Al and Pete escalates to Al shooting Pete,claude-opus-a
+2664_14_5__14_6,1,action-to-action,medium,scene-to-scene,travelers head back then reach their ship; continuous movement,claude-opus-a
+2121_33_0__33_1,1,action-to-action,high,,same proprietor; hands on ears then changes sign,claude-opus-a
+1200_23_2__23_3,1,scene-to-scene,high,,caption BUT BEFORE THE MATCH; ring to gangsters elsewhere,claude-opus-a
+535_49_7__49_8,1,action-to-action,medium,scene-to-scene,same masked hero; inside with captives then departing waving at train,claude-opus-a
+3008_53_4__53_5,1,scene-to-scene,high,,caption A FEW MINUTES LATER and EN ROUTE TO NEW YORK; new location,claude-opus-a
+3281_6_1__6_2,1,subject-to-subject,medium,action-to-action,enemy pilot then cut to carrier gunners firing,claude-opus-a
+2265_35_4__35_5,1,subject-to-subject,medium,scene-to-scene,villain speaking then audience and clocks; ten minutes pass,claude-opus-a
+1944_33_1__33_2,1,subject-to-subject,low,action-to-action,cropped B; focus moves from speaker to other character getting hit,claude-opus-a
+3258_9_5__9_6,1,scene-to-scene,low,action-to-action,same man; cobra fight then later eating berries with monkey; new vignette,claude-opus-a
+1944_6_12__7_0,0,,high,,B is title banner of a new strip; not a story panel,claude-opus-a
+1442_45_0__45_1,1,scene-to-scene,high,,caption BUT IN THE PLANE; office to airplane,claude-opus-a
+1593_4_0__4_1,1,subject-to-subject,medium,action-to-action,panther in foreground then focus on hunters reacting,claude-opus-a
+926_16_1__16_2,1,moment-to-moment,medium,subject-to-subject,same driver keeps talking in car; slight reframe,claude-opus-a
+1978_40_6__40_7,1,action-to-action,high,,sailor hits bald man then grabs and interrogates him,claude-opus-a
+2753_19_5__19_6,1,scene-to-scene,medium,aspect-to-aspect,astronaut in open space then caption SPACE TERMINAL; new place,claude-opus-a
+2511_30_5__30_6,1,action-to-action,high,,man asks to be helped aboard then aboard with box giving orders,claude-opus-a
+3294_21_2__21_3,1,subject-to-subject,medium,action-to-action,explosion and old man then focus on brawl with girls punching,claude-opus-a
+711_13_3__13_4,1,action-to-action,low,scene-to-scene,group heads up steps then caption says they enter the city; text-only B,claude-opus-a
+3367_26_5__26_6,1,action-to-action,medium,scene-to-scene,Irene opens gate then rides off with hero,claude-opus-a
+1319_16_4__16_5,1,subject-to-subject,medium,action-to-action,hero with grenades then cut to attackers charging,claude-opus-a
+1433_22_5__22_6,1,subject-to-subject,high,,woman says goodbye then close-up of brothers responding,claude-opus-a
+2493_5_2__5_3,1,action-to-action,medium,subject-to-subject,rope thrown at fleeing girls then girl caught by rope,claude-opus-a
+956_15_0__15_1,1,action-to-action,medium,subject-to-subject,hero plows through thugs then punches the boss,claude-opus-a
+282_11_1__11_2,1,subject-to-subject,medium,scene-to-scene,US sub crew then cut to French skipper on fleeing ship,claude-opus-a
+1271_32_2__32_3,1,scene-to-scene,high,,caption THAT NIGHT; different characters and setting,claude-opus-a
+2543_30_4__30_5,1,subject-to-subject,medium,moment-to-moment,sheriff and banker exchange then focus on rider replying,claude-opus-a

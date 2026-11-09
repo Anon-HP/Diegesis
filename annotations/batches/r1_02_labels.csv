@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+789_60_4__60_5,1,action-to-action,medium,moment-to-moment,same hen and onlookers; hen visibly grown and men react,claude-opus-a
+2438_3_3__3_4,1,scene-to-scene,high,,caption BACK TO THE BATTLEFRONT; new place and characters,claude-opus-a
+3008_16_1__16_2,1,action-to-action,medium,scene-to-scene,same riders; mounting at bridle path then riding through woods,claude-opus-a
+3863_6_4__6_5,1,action-to-action,medium,subject-to-subject,Bert kneels then examines body; girl climbs onto raft,claude-opus-a
+3693_23_5__23_6,1,subject-to-subject,low,aspect-to-aspect,dialogue continues but view cuts from officers to riverboat on river,claude-opus-a
+793_13_5__14_0,1,subject-to-subject,medium,action-to-action,cut from ink clue to Superman and officer discussing it,claude-opus-a
+3334_49_0__49_1,1,aspect-to-aspect,low,subject-to-subject,splash of heroes amid planes then narration caption over plane armada; no time advance,claude-opus-a
+211_28_4__29_0,1,subject-to-subject,medium,action-to-action,hero bound then focus shifts to soldier checking wounded captive,claude-opus-a
+3783_35_3__35_4,1,scene-to-scene,high,,captions NEXT MORNING then THAT AFTERNOON; new town setting,claude-opus-a
+1075_15_7__16_0,1,subject-to-subject,medium,action-to-action,accusing mouse to Elmer apologizing and robed mouse king replying,claude-opus-a
+3863_13_1__13_2,1,action-to-action,medium,subject-to-subject,passenger leaves; driver then discovers hundred dollar tip,claude-opus-a
+956_60_4__61_0,1,scene-to-scene,high,,caption NEXT AFTERNOON TERRY ARRIVES IN WESTCHESTER; office to estate,claude-opus-a
+1094_24_1__24_2,1,action-to-action,high,,same fight; punch then hero grabs gangster as shield,claude-opus-a
+1406_6_5__7_0,1,subject-to-subject,medium,action-to-action,car chase shot then cut to gangsters inside truck,claude-opus-a
+3951_20_6__21_0,1,scene-to-scene,medium,subject-to-subject,caption cuts to opposite farm house; different characters and location,claude-opus-a
+2600_31_3__32_0,0,,,,B is a text-only prose page not a comic panel,claude-opus-a
+414_10_1__10_2,1,subject-to-subject,medium,action-to-action,Black Cat on rings then Kit discovering her,claude-opus-a
+3334_27_0__27_1,1,scene-to-scene,low,action-to-action,title panel portrait then story opens on street with fire truck,claude-opus-a
+956_27_6__28_0,1,action-to-action,medium,scene-to-scene,man explains dam trouble then pair ride toward the dam,claude-opus-a
+3334_16_4__17_0,1,action-to-action,medium,scene-to-scene,caption few moments later; hero changed into civilian clothes,claude-opus-a
+1075_13_4__13_5,1,action-to-action,high,,same character climbs desk then writes with giant pencil,claude-opus-a
+3747_5_1__5_2,1,subject-to-subject,medium,action-to-action,speaker and crowd then cut to man being seized under arrest,claude-opus-a
+2543_3_6__4_0,1,subject-to-subject,medium,action-to-action,man on stage sees gunmen; cut to gunmen firing on crowd,claude-opus-a
+1752_41_4__41_5,1,action-to-action,medium,moment-to-moment,doctor confronted then draws knife and grabs nurse,claude-opus-a
+3693_31_3__31_4,1,subject-to-subject,high,,woman speaks into horn; cut to natives reacting to voice,claude-opus-a
+3863_18_0__18_1,1,action-to-action,medium,subject-to-subject,woman storms off then stops at theater reconsidering,claude-opus-a
+2600_29_4__29_5,1,action-to-action,medium,scene-to-scene,FBI storm lair then have rounded everyone up,claude-opus-a
+1593_27_4__27_5,1,subject-to-subject,high,,man and Velvet then cut to blonde delivering message,claude-opus-a
+1094_61_1__61_2,1,action-to-action,high,,Jim attacked from behind then fights them off,claude-opus-a
+1146_62_0__62_1,1,subject-to-subject,medium,action-to-action,hero running then cut to red craft at sea,claude-opus-a
+2737_29_0__29_1,1,subject-to-subject,medium,action-to-action,one robber shooting then masked leader shooting another victim,claude-opus-a
+1271_28_6__28_7,1,subject-to-subject,medium,moment-to-moment,question from listener then cut to man answering,claude-opus-a
+860_22_5__22_6,1,moment-to-moment,medium,subject-to-subject,same two men in blizzard continuing exchange; closer framing,claude-opus-a
+211_39_6__39_7,1,action-to-action,low,scene-to-scene,pair walking at sunrise then fishing at stream,claude-opus-a
+860_25_2__25_3,0,,,,advertisement comic for Mini-Gym not story panels,claude-opus-a
+1150_27_0__27_1,1,scene-to-scene,low,aspect-to-aspect,title splash then caption opens story at ancestral home,claude-opus-a
+2600_9_2__10_0,1,subject-to-subject,medium,action-to-action,officer whispers to Hitler then cut to officers obeying order,claude-opus-a
+3823_19_0__19_1,1,action-to-action,high,,Sheena grazed by weapon then falls unconscious,claude-opus-a
+1150_15_3__15_4,1,scene-to-scene,high,,caption LATER; Wilbur returns to find wife dead,claude-opus-a
+282_28_6__29_0,1,action-to-action,medium,subject-to-subject,man arrives at station then briefs police commander,claude-opus-a

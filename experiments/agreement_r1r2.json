@@ -1,0 +1,57 @@
+{
+ "n_overlap": 160,
+ "validity_agreement": 0.975,
+ "n_both_valid": 147,
+ "percent_agreement": 0.7551020408163265,
+ "cohen_kappa": 0.6353614001240268,
+ "confusion_primary_rows_vs_other_cols": {
+  "moment-to-moment": {
+   "moment-to-moment": 1,
+   "action-to-action": 0,
+   "subject-to-subject": 0,
+   "scene-to-scene": 0,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  },
+  "action-to-action": {
+   "moment-to-moment": 5,
+   "action-to-action": 27,
+   "subject-to-subject": 10,
+   "scene-to-scene": 3,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  },
+  "subject-to-subject": {
+   "moment-to-moment": 3,
+   "action-to-action": 7,
+   "subject-to-subject": 50,
+   "scene-to-scene": 4,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  },
+  "scene-to-scene": {
+   "moment-to-moment": 0,
+   "action-to-action": 1,
+   "subject-to-subject": 3,
+   "scene-to-scene": 33,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  },
+  "aspect-to-aspect": {
+   "moment-to-moment": 0,
+   "action-to-action": 0,
+   "subject-to-subject": 0,
+   "scene-to-scene": 0,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  },
+  "non-sequitur": {
+   "moment-to-moment": 0,
+   "action-to-action": 0,
+   "subject-to-subject": 0,
+   "scene-to-scene": 0,
+   "aspect-to-aspect": 0,
+   "non-sequitur": 0
+  }
+ }
+}

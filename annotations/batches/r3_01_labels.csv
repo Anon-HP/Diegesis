@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+2152_15_5__15_6,1,scene-to-scene,high,,caption flashes back to 1943; commandos land in Italy; new time and place,claude-opus-a
+1075_19_3__19_4,1,action-to-action,medium,moment-to-moment,same character; reading joke then pondering with pen; new action,claude-opus-a
+1712_8_0__8_1,0,,,,A is a bad crop fragment overlapping B's balloon,claude-opus-a
+420_36_10__36_11,1,subject-to-subject,high,,poster being pasted then bandaged man reading it,claude-opus-a
+1712_36_1__36_2,0,,,,toy gun advertisement strip; B is multi-panel fragment,claude-opus-a
+3802_8_0__8_1,0,,,,advertisement and order coupon,claude-opus-a
+860_22_4__22_5,1,subject-to-subject,medium,action-to-action,group struggling in blizzard then close-up of boss and Allen talking,claude-opus-a
+646_17_3__17_4,1,action-to-action,medium,subject-to-subject,same man keeps speaking; now handling pistols for fingerprints,claude-opus-a
+3408_61_7__61_8,1,action-to-action,high,,pilot decides on stunt; plane then spirals earthward,claude-opus-a
+2543_12_2__12_3,0,,,,advertisement for bandana and malted milk,claude-opus-a
+262_11_10__11_11,1,subject-to-subject,medium,,poisoner thinking then cut to victims at table drinking coffee,claude-opus-a
+1271_20_6__20_7,1,scene-to-scene,medium,subject-to-subject,caption A FEW HOURS LATER; same gambler at table,claude-opus-a
+2070_12_0__12_1,1,action-to-action,medium,moment-to-moment,same two characters; standing talking then walking away,claude-opus-a
+3046_61_2__61_3,1,action-to-action,high,,Kardak announces visit then turns invisible and passes guards,claude-opus-a
+311_7_4__7_5,1,moment-to-moment,medium,subject-to-subject,same two men same framing; conversation continues,claude-opus-a
+2198_23_2__23_3,1,subject-to-subject,medium,action-to-action,skull moon seen; then penguins panic down slope,claude-opus-a
+1075_25_0__25_1,1,subject-to-subject,high,,doctor instructs then patients thank him and pay,claude-opus-a
+1687_7_3__7_4,1,action-to-action,low,subject-to-subject,caption says scientist and guide paddle; B they hide in grass,claude-opus-a
+1687_24_2__24_3,0,,,,text feature page not story panels,claude-opus-a
+3783_1_0__1_1,0,,,,girdle advertisement,claude-opus-a
+2831_57_0__57_1,0,,,,prose text story page; no panels,claude-opus-a
+1944_19_12__19_13,1,subject-to-subject,medium,action-to-action,Mamie shouts then husband outside without pants replies,claude-opus-a
+2438_18_0__18_1,0,,,,B is a crop of the scroll inside A; not consecutive,claude-opus-a
+3008_5_5__5_6,1,aspect-to-aspect,low,moment-to-moment,commandos dilemma then narration-only caption reflecting; no time passes,claude-opus-a
+3258_33_0__33_1,0,,,,watch advertisement,claude-opus-a
+3751_4_2__4_3,1,subject-to-subject,medium,aspect-to-aspect,foggy city buildings then Uncle Sam and Buddy groping along,claude-opus-a
+2664_25_1__25_2,1,action-to-action,low,aspect-to-aspect,rays fired at monsters; B caption explains them welded together,claude-opus-a
+3020_39_4__39_5,1,subject-to-subject,medium,moment-to-moment,artist speaks; then focus on pig asking to keep pictures,claude-opus-a
+1393_59_1__59_2,1,moment-to-moment,medium,subject-to-subject,same two boys at table continuing conversation,claude-opus-a
+1416_29_5__29_6,0,,,,B is next issue promo not story panel,claude-opus-a
+1584_45_8__45_9,1,action-to-action,high,,man strides in then bullet shatters window as he passes,claude-opus-a
+2635_46_7__46_8,1,subject-to-subject,low,scene-to-scene,police talk indoors then two men on steps; same conversation,claude-opus-a
+2152_38_2__38_3,1,subject-to-subject,medium,action-to-action,ration books close-up then family running thinking of rationed food,claude-opus-a
+1827_31_5__31_6,1,subject-to-subject,medium,action-to-action,narrator whirls to challenge; B Billy Clanton aiming and taunting,claude-opus-a
+942_36_2__36_3,0,,,,toy gun advertisement,claude-opus-a
+1090_31_7__31_8,1,scene-to-scene,high,,caption NEXT DAY; Janet bursts into store,claude-opus-a
+651_15_7__15_8,0,,,,B is next issue blurb not story panel,claude-opus-a
+376_37_6__37_7,1,action-to-action,medium,moment-to-moment,truck turns onto side road; driver pulls over and reacts,claude-opus-a
+535_55_6__55_7,1,action-to-action,low,scene-to-scene,plane lands at night; pilot Logan then reports to officer inside,claude-opus-a
+3334_57_1__57_2,0,,,,training cockpit advertisement,claude-opus-a

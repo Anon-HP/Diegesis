@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+3863_22_1__22_2,0,,high,,A and B are overlapping crops of the same panel; same caption and balloons,claude-opus-a
+755_24_4__24_5,1,action-to-action,medium,subject-to-subject,Lyle readies gun then bursts in on zombie party; action progresses,claude-opus-a
+3783_37_1__37_2,1,subject-to-subject,medium,action-to-action,boss gives orders; caption three minutes; focus shifts to gunman and intervening stranger,claude-opus-a
+956_4_2__4_3,1,scene-to-scene,high,,caption next morning phone call; then boat at dock elsewhere,claude-opus-a
+1822_9_4__9_5,0,,high,,A is a sub-crop of B; same man and cut balloon repeated,claude-opus-a
+211_89_0__89_1,1,action-to-action,medium,scene-to-scene,Yank whipped then Nazi locks him in cell; same pair progresses,claude-opus-a
+793_42_3__42_4,1,subject-to-subject,medium,moment-to-moment,focus moves from sheik speaking to Commander Steel replying,claude-opus-a
+1271_61_5__61_6,1,subject-to-subject,high,,cut from flaming idol speaking to worshipper bowing and replying,claude-opus-a
+2321_59_0__59_1,1,action-to-action,high,,same plane flies over explosion then lands,claude-opus-a
+2152_2_0__2_1,1,subject-to-subject,low,aspect-to-aspect,splash title skull castle then Shield and Dusty approaching it,claude-opus-a
+1271_7_0__7_1,1,action-to-action,medium,moment-to-moment,heroes running up then stopped questioning same digger,claude-opus-a
+552_20_1__20_2,1,subject-to-subject,medium,action-to-action,cops break up fight then focus on two boys talking,claude-opus-a
+123_31_4__31_5,1,action-to-action,medium,moment-to-moment,same mailman questions woman then spots Wilbur leaving,claude-opus-a
+3751_45_1__45_2,1,subject-to-subject,high,action-to-action,sculptor smashing statues then cupid crashes through skylight,claude-opus-a
+2291_39_2__39_3,0,,high,,Betty Crocker soup advertisement,claude-opus-a
+2600_38_3__38_4,1,action-to-action,high,,same tied boy struggles then tips chair over,claude-opus-a
+1161_33_2__33_3,1,subject-to-subject,medium,action-to-action,ambusher waits at door then Hopalong kicks door open,claude-opus-a
+2142_33_0__33_1,1,scene-to-scene,low,action-to-action,air battle ends; caption skies cleared; then briefing with Major,claude-opus-a
+2198_20_3__20_4,1,subject-to-subject,medium,action-to-action,Reef holds hostage then exchange with Vara after release,claude-opus-a
+3281_33_3__33_4,1,subject-to-subject,medium,scene-to-scene,watchers on boat then cut inside plane to Phantom Falcon,claude-opus-a
+1293_3_0__3_1,0,,medium,,overlapping crops of one panel; same balloon cat and book repeated,claude-opus-a
+1393_35_1__35_2,1,subject-to-subject,high,,customer asks credit then shopkeeper refuses,claude-opus-a
+1977_26_7__26_8,1,subject-to-subject,high,,Indians charge then Wing fires rifle at them,claude-opus-a
+3951_9_2__9_3,1,action-to-action,low,subject-to-subject,Mary comforts Sally then both stand talking about escape,claude-opus-a
+684_8_0__8_1,1,subject-to-subject,medium,action-to-action,Moon Man flees then Marvel Jr runs in pursuit,claude-opus-a
+2600_44_2__44_3,1,subject-to-subject,high,,woman speaks then man reacts HE WHAT,claude-opus-a
+178_28_4__28_5,1,action-to-action,medium,subject-to-subject,same man creeps through woods then meets girl,claude-opus-a
+2488_7_5__8_0,1,scene-to-scene,medium,action-to-action,caption LATER; council of warriors around camp,claude-opus-a
+3693_7_3__7_4,1,subject-to-subject,medium,action-to-action,looters with treasure; suddenly cut to leader ordering capture of girl,claude-opus-a
+2486_26_3__26_4,1,scene-to-scene,low,subject-to-subject,caption SOON; scared man then men boarding boat at dock,claude-opus-a
+2438_17_1__17_2,1,subject-to-subject,high,,king presses button then the three wise guys appear,claude-opus-a
+2635_45_6__45_7,1,action-to-action,medium,subject-to-subject,Barry ends meeting then caption as Barry leaves the tong,claude-opus-a
+926_12_5__12_6,1,subject-to-subject,medium,action-to-action,tumbled rider watches then focus on cyclist heading for tree,claude-opus-a
+1200_23_0__23_1,1,scene-to-scene,high,,caption after that he traveled; different fight later,claude-opus-a
+3046_20_5__20_6,1,subject-to-subject,low,scene-to-scene,Griffin kicked to doom then hermit congratulates Galahad,claude-opus-a
+1105_35_3__35_4,1,scene-to-scene,medium,subject-to-subject,caller in Washington then heroes changing and flying off elsewhere,claude-opus-a
+1996_11_2__11_3,1,action-to-action,low,moment-to-moment,thugs slap then grab Needle-nose by collar,claude-opus-a
+45_42_1__42_2,1,action-to-action,low,scene-to-scene,man offers card then boy shows dollar outside; time passes,claude-opus-a
+1442_46_4__46_5,1,subject-to-subject,high,,thieves pelt Doug then escaping watchman strikes him,claude-opus-a
+298_29_3__29_4,1,scene-to-scene,high,,caption village after village; boat on river then search inland,claude-opus-a

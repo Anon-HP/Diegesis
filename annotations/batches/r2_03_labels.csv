@@ -1,0 +1,41 @@
+pair_id,valid,label,confidence,second_choice,rationale,annotator
+975_10_1__10_2,1,subject-to-subject,high,,gunman fires; cut to redhead reacting in same scene,claude-opus-a
+1095_61_1__61_2,1,scene-to-scene,medium,subject-to-subject,office handshake then army camp hazing; caption marks new setting,claude-opus-a
+3449_46_1__46_2,1,action-to-action,medium,subject-to-subject,Fred moves from standing to kneeling at bed consoling Grace,claude-opus-a
+3281_15_3__15_4,1,action-to-action,high,,man walks into relic room then kneels grabbing loot chest,claude-opus-a
+45_62_7__62_8,1,subject-to-subject,medium,scene-to-scene,bandits at table then close-up of hero thinking about them,claude-opus-a
+546_12_1__12_2,1,subject-to-subject,high,,couple enters; cut to older woman greeting Rodney,claude-opus-a
+2158_25_3__25_4,1,subject-to-subject,high,,laughing man then cut to Shield discovering Strongo,claude-opus-a
+2142_3_4__3_5,1,scene-to-scene,high,,caption MEANWHILE AT THE FBI OFFICE IN WASHINGTON,claude-opus-a
+958_54_3__54_4,1,subject-to-subject,medium,scene-to-scene,newspaper montage with officer then Hitler in office speaking,claude-opus-a
+3248_17_0__17_1,1,action-to-action,high,,Davy rides toward herd then charges alongside buffalo,claude-opus-a
+262_23_11__24_0,1,scene-to-scene,high,,caption Meanwhile back at Nugget Hill; new characters and place,claude-opus-a
+262_6_4__6_5,1,scene-to-scene,high,,caption shifts to villa outside Rome; time and place jump,claude-opus-a
+703_9_5__9_6,1,subject-to-subject,medium,moment-to-moment,Dr Newton offers reward; cut to Captain and Chuck replying,claude-opus-a
+535_19_0__19_1,1,subject-to-subject,medium,action-to-action,train enters tunnel; cut inside to Rang and Linda subduing Hunch,claude-opus-a
+2265_35_1__35_2,1,action-to-action,medium,subject-to-subject,Mr Midnight enters door then bows introducing himself,claude-opus-a
+3637_18_0__18_1,1,subject-to-subject,high,,assistant asks for Heindorf; cut to Heindorf arriving and speaking,claude-opus-a
+45_49_6__49_7,1,subject-to-subject,medium,scene-to-scene,detective with boy then explaining to Miss Minnie,claude-opus-a
+1352_17_0__17_1,1,scene-to-scene,low,subject-to-subject,splash montage of past events then specific office scene,claude-opus-a
+104_7_2__7_3,1,action-to-action,medium,subject-to-subject,two sailors climb aboard then talk on deck,claude-opus-a
+1199_58_2__58_3,1,action-to-action,medium,subject-to-subject,robbers leave bank then meet police cordon,claude-opus-a
+1393_59_2__59_3,1,moment-to-moment,medium,action-to-action,same redhead continues explaining his idea; closer framing,claude-opus-a
+1334_33_2__33_3,1,action-to-action,medium,scene-to-scene,caption A LITTLE LATER; same cowboy now beside finished grave,claude-opus-a
+1944_28_0__28_1,1,subject-to-subject,high,,boy speaks; father responds in next panel,claude-opus-a
+2198_10_2__10_3,1,action-to-action,medium,subject-to-subject,hero runs to dragon then dragon grabs him,claude-opus-a
+3281_6_3__6_4,0,,low,,bad crop; panel B merges multiple panels,claude-opus-a
+1161_6_1__6_2,1,action-to-action,high,,lawman jumps from wagon then dives into river,claude-opus-a
+1101_5_3__5_4,1,subject-to-subject,medium,action-to-action,focus shifts from Black Terror to Tim seized by spell,claude-opus-a
+332_17_3__17_4,1,subject-to-subject,medium,action-to-action,conversation by fire then man in coat leaving; Phantom reacts,claude-opus-a
+2916_3_1__3_2,1,action-to-action,high,,rider leaps fence then reaches fallen Ace,claude-opus-a
+193_51_0__51_1,0,,high,,panel A is a title logo not a story panel,claude-opus-a
+1352_19_5__20_0,1,action-to-action,medium,scene-to-scene,Rex kisses Gloria in taxi then walks her to her house,claude-opus-a
+871_17_0__17_1,0,,medium,,panel B is a text-only caption fragment,claude-opus-a
+1082_31_2__31_3,1,action-to-action,medium,subject-to-subject,salesman grabs boy then boy on floor as salesman offers contract,claude-opus-a
+1442_8_6__8_7,1,action-to-action,high,,man swept down water main then clutches manhole rung,claude-opus-a
+860_18_2__19_0,1,moment-to-moment,medium,action-to-action,same man with hammer continues musing in snow; small change,claude-opus-a
+1146_55_6__56_0,1,action-to-action,medium,subject-to-subject,Stardust lifts police then police float out of gun range,claude-opus-a
+237_6_4__6_5,1,subject-to-subject,medium,action-to-action,tank escapes through village then cut to soldiers struck by debris,claude-opus-a
+2892_41_5__41_6,1,subject-to-subject,medium,action-to-action,officer orders firing; cut to target exploding and another officer reporting,claude-opus-a
+657_14_5__14_6,1,scene-to-scene,high,,caption LATER on a cliff; Hugo and Professor in new place,claude-opus-a
+45_60_1__60_2,1,scene-to-scene,medium,action-to-action,recap caption opens new installment; cave setting differs,claude-opus-a
