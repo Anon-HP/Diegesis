@@ -1,0 +1,43 @@
+# ---- local-only project notes (kept on disk, never committed) -------------------------------
+/STATUS.md
+/CLAUDE.md
+/docs/TEAM_ALLOCATION.md
+
+# ---- Python environment and caches ---------------------------------------------------------
+# .venv is a symlink to the external workspace; no trailing slash, or git would not match a symlink
+.venv
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---- secrets --------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- comic images: copyrighted/raw scans never enter the repo -------------------------------
+# Panels, composites and caches live in $CPT_WORKSPACE (outside the repo). These rules catch strays.
+/demo/
+*.jpg
+*.jpeg
+*.png
+# ...but the web UI's own icons/placeholders are required source assets
+!/frontend/public/*.png
+!/frontend/public/*.jpg
+!docs/figures/*.png
+
+# ---- regenerable / machine-specific artifacts -----------------------------------------------
+cache/
+# per-fold CV checkpoints (scripts/train.py regenerates them; results are in experiments/*.json)
+/experiments/*_ckpt/
+# generated labelling page; embeds absolute file:// paths to this machine's workspace
+/annotations/human_annotation_tool.html
+*.log
+
+# ---- OS / editors ---------------------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
