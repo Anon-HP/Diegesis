@@ -1,16 +1,21 @@
-import type { TransitionTypeName } from './transition-types'
+import type { TransitionLabel, TransitionTypeName } from './transition-types'
 
 export type PanelImage = {
   file: File
   url: string
 }
 
+/** One model prediction for Panel 01 → Panel 02, as returned by the backend (POST /api/analyze). */
 export interface ComicAnalysis {
+  label: TransitionLabel
   transitionType: TransitionTypeName
   transitionDescription: string
-  whyThisFits: string
-  question?: string
-  questionAnswer?: string
+  confidence: number
+  /** Probability for each of the six labels (sums to 1). */
+  probabilities: Record<TransitionLabel, number>
+  warnings: string[]
+  method: string
+  elapsedMs: number
 }
 
 export type AnalysisResult = ComicAnalysis & {

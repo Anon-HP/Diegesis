@@ -1,8 +1,10 @@
 'use client'
 
-import { ArrowRight, Check, Copy, PenLine, RotateCcw } from 'lucide-react'
+import { ArrowRight, Check, Copy, RotateCcw, TriangleAlert } from 'lucide-react'
 import { useState } from 'react'
-import { formatAnalysisAsText } from '@/lib/analysis/format'
+import { formatAnalysisAsText, formatPercent } from '@/lib/analysis/format'
+import { TRANSITION_TYPES } from '@/lib/analysis/transition-types'
+import { cn } from '@/lib/utils'
 import type { AnalysisResult as Result, PanelImage } from '@/lib/analysis/types'
 import { TransitionTypesList } from './transition-types-list'
 
@@ -10,10 +12,9 @@ type AnalysisResultProps = {
   result: Result
   panels: [PanelImage, PanelImage]
   onAnalyzeAgain: () => void
-  onAskAnother: () => void
 }
 
-export function AnalysisResult({ result, panels, onAnalyzeAgain, onAskAnother }: AnalysisResultProps) {
+export function AnalysisResult({ result, panels, onAnalyzeAgain }: AnalysisResultProps) {
   return (
     <section
       aria-labelledby="analysis-heading"
@@ -37,35 +38,34 @@ export function AnalysisResult({ result, panels, onAnalyzeAgain, onAskAnother }:
           <p className="mt-3 text-3xl font-medium tracking-tight text-balance sm:text-4xl">
             {result.transitionType}
           </p>
+          <p className="mt-2 font-mono text-[12px] tracking-[0.08em] text-teal">
+            CONFIDENCE {formatPercent(result.confidence)}
+          </p>
           <p className="mt-3 text-[15px] leading-relaxed text-muted-foreground italic text-pretty">
             {result.transitionDescription}
           </p>
         </div>
 
-        <div>
-          <Eyebrow>WHY THIS FITS</Eyebrow>
-          <p className="mt-3 text-[17px] leading-relaxed text-pretty">{result.whyThisFits}</p>
-        </div>
-
-        {result.question && result.questionAnswer && (
-          <div className="flex flex-col gap-6 border-t border-border pt-8">
-            <div>
-              <Eyebrow>YOUR QUESTION</Eyebrow>
-              <p className="mt-2 border-l-2 border-border-strong pl-4 text-[15px] text-muted-foreground italic">
-                {result.question}
-              </p>
-            </div>
-            <div>
-              <Eyebrow>ANSWER</Eyebrow>
-              <p className="mt-2 text-[17px] leading-relaxed text-pretty">{result.questionAnswer}</p>
-            </div>
-          </div>
+        {result.warnings.length > 0 && (
+          <ul className="flex flex-col gap-2" aria-label="Notes about this prediction">
+            {result.warnings.map((warning) => (
+              <li
+                key={warning}
+                className="flex items-start gap-2 border-l-2 border-ochre pl-3 text-sm leading-relaxed text-muted-foreground"
+              >
+                <TriangleAlert aria-hidden="true" className="mt-0.5 size-3.5 shrink-0 text-ochre" strokeWidth={1.75} />
+                {warning}
+              </li>
+            ))}
+          </ul>
         )}
+
+        <ProbabilityBreakdown result={result} />
       </div>
 
-      <TransitionTypesList current={result.transitionType} />
+      <TransitionTypesList current={result.label} />
 
-      <ResultActions result={result} onAnalyzeAgain={onAnalyzeAgain} onAskAnother={onAskAnother} />
+      <ResultActions result={result} onAnalyzeAgain={onAnalyzeAgain} />
     </section>
   )
 }
@@ -75,6 +75,38 @@ function Eyebrow({ children }: { children: React.ReactNode }) {
     <p className="font-mono text-[11px] font-medium tracking-[0.14em] text-muted-foreground">
       {children}
     </p>
+  )
+}
+
+function ProbabilityBreakdown({ result }: { result: Result }) {
+  return (
+    <div>
+      <Eyebrow>MODEL PROBABILITIES</Eyebrow>
+      <ul className="mt-4 flex flex-col gap-2.5">
+        {TRANSITION_TYPES.map((type) => {
+          const p = result.probabilities[type.label]
+          const isCurrent = type.label === result.label
+          return (
+            <li key={type.label} className="grid grid-cols-[9.5rem_1fr_3rem] items-center gap-3 text-sm">
+              <span className={cn(isCurrent ? 'font-medium text-foreground' : 'text-muted-foreground')}>
+                {type.name}
+              </span>
+              <span className="h-1.5 overflow-hidden rounded-full bg-muted" aria-hidden="true">
+                <span
+                  className={cn('block h-full rounded-full', isCurrent ? 'bg-teal' : 'bg-border-strong')}
+                  style={{ width: `${Math.max(p * 100, 0.5)}%` }}
+                />
+              </span>
+              <span className="text-right font-mono text-[12px] text-muted-foreground">{formatPercent(p)}</span>
+            </li>
+          )
+        })}
+      </ul>
+      <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
+        Prediction from a model trained on Golden Age US comics with machine-generated labels. On held-out
+        comics it agrees with the reference label about 38% of the time — treat it as a suggestion, not a verdict.
+      </p>
+    </div>
   )
 }
 
@@ -102,11 +134,9 @@ function PanelReference({ panels }: { panels: [PanelImage, PanelImage] }) {
 function ResultActions({
   result,
   onAnalyzeAgain,
-  onAskAnother,
 }: {
   result: Result
   onAnalyzeAgain: () => void
-  onAskAnother: () => void
 }) {
   const [copied, setCopied] = useState(false)
 
@@ -133,10 +163,6 @@ function ResultActions({
       <ActionButton onClick={onAnalyzeAgain}>
         <RotateCcw aria-hidden="true" className="size-3.5" strokeWidth={1.75} />
         Analyze again
-      </ActionButton>
-      <ActionButton onClick={onAskAnother}>
-        <PenLine aria-hidden="true" className="size-3.5" strokeWidth={1.75} />
-        Ask another question
       </ActionButton>
       <span className="sr-only" aria-live="polite">
         {copied ? 'Analysis copied to clipboard' : ''}

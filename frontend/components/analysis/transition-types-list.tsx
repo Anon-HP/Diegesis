@@ -2,9 +2,9 @@
 
 import { useId, useState } from 'react'
 import { cn } from '@/lib/utils'
-import { TRANSITION_TYPES, type TransitionTypeName } from '@/lib/analysis/transition-types'
+import { TRANSITION_TYPES, type TransitionLabel } from '@/lib/analysis/transition-types'
 
-export function TransitionTypesList({ current }: { current: TransitionTypeName }) {
+export function TransitionTypesList({ current }: { current: TransitionLabel }) {
   const [open, setOpen] = useState(false)
   const regionId = useId()
   const headingId = useId()
@@ -34,7 +34,7 @@ export function TransitionTypesList({ current }: { current: TransitionTypeName }
 
             <ol className="mt-5 max-w-3xl divide-y divide-border border-y border-border">
               {TRANSITION_TYPES.map((type, index) => {
-                const isCurrent = type.name === current
+                const isCurrent = type.label === current
                 return (
                   <li
                     key={type.name}

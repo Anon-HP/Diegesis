@@ -14,7 +14,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: 'Comic Analyst — Visual transition analysis',
   description:
-    'Upload two comic panels and Comic Analyst identifies the visual, contextual, and narrative changes between them.',
+    'Upload two consecutive comic panels and Comic Analyst classifies the transition into one of McCloud’s six types.',
   generator: 'v0.app',
   icons: {
     icon: [

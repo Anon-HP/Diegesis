@@ -16,9 +16,9 @@ export function About() {
             explicit.
           </p>
           <p>
-            It is intended for readers, students, editors, and researchers who want a careful,
-            structured account of how one panel leads to the next: who moved, what changed in the
-            scene, and what the text adds.
+            It classifies each pair of consecutive panels into one of the six transition types Scott
+            McCloud describes in <em>Understanding Comics</em> (1993). The model was trained on
+            English-language Golden Age American comics and runs entirely on your own machine.
           </p>
         </div>
       </div>

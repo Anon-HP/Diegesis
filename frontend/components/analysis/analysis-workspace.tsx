@@ -2,13 +2,14 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { analyzeComic } from '@/lib/analysis/analyze-comic'
+import { formatFileSize, MAX_FILE_BYTES } from '@/lib/analysis/format'
+import { AnalysisError } from '@/lib/analysis/types'
 import type { AnalysisResult as Result, PanelImage } from '@/lib/analysis/types'
 import { AnalysisLoading } from './analysis-loading'
 import { AnalysisResult } from './analysis-result'
 import { AnalyzeButton } from './analyze-button'
 import { ComicPanelUploader } from './comic-panel-uploader'
 import { FormMessage } from './form-message'
-import { QuestionField } from './question-field'
 import { TransitionIndicator } from './transition-indicator'
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
@@ -18,16 +19,15 @@ const MESSAGES = {
   missingPanels: 'Please upload both panels before analyzing the transition.',
   invalidType: 'Unsupported file type. Please upload a PNG, JPG, or JPEG image.',
   failed: 'The analysis could not be completed. Please try again.',
+  tooLarge: `File too large. Each panel must be under ${formatFileSize(MAX_FILE_BYTES)}.`,
 }
 
 export function AnalysisWorkspace() {
   const [panels, setPanels] = useState<Record<Slot, PanelImage | null>>({ first: null, second: null })
-  const [question, setQuestion] = useState('')
   const [status, setStatus] = useState<Status>('idle')
   const [result, setResult] = useState<Result | null>(null)
   const [error, setError] = useState<string | null>(null)
 
-  const questionRef = useRef<HTMLTextAreaElement>(null)
   const outputRef = useRef<HTMLDivElement>(null)
   const abortRef = useRef<AbortController | null>(null)
   const panelsRef = useRef(panels)
@@ -47,6 +47,10 @@ export function AnalysisWorkspace() {
   const uploadedCount = Number(Boolean(panels.first)) + Number(Boolean(panels.second))
 
   const setPanel = (slot: Slot, file: File | null) => {
+    if (file && file.size > MAX_FILE_BYTES) {
+      setError(MESSAGES.tooLarge)
+      return
+    }
     const previous = panels[slot]
     if (previous) URL.revokeObjectURL(previous.url)
     const next = file ? { file, url: URL.createObjectURL(file) } : null
@@ -78,22 +82,16 @@ export function AnalysisWorkspace() {
     scrollToOutput()
 
     try {
-      const next = await analyzeComic(panels.first.file, panels.second.file, question, {
+      const next = await analyzeComic(panels.first.file, panels.second.file, {
         signal: controller.signal,
       })
       setResult(next)
       setStatus('success')
     } catch (err) {
       if (err instanceof DOMException && err.name === 'AbortError') return
-      setError(MESSAGES.failed)
+      setError(err instanceof AnalysisError ? err.message : MESSAGES.failed)
       setStatus('error')
     }
-  }
-
-  const askAnother = () => {
-    setQuestion('')
-    questionRef.current?.focus({ preventScroll: true })
-    questionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
   }
 
   return (
@@ -133,7 +131,7 @@ export function AnalysisWorkspace() {
                   </p>
                   <p className="mt-1 text-sm text-muted-foreground">
                     {bothReady
-                      ? 'Add an optional question, or analyze the full transition.'
+                      ? 'Analyze the transition from the first panel to the second.'
                       : `Upload the ${panels.first ? 'second' : 'first'} panel to continue.`}
                   </p>
                 </>
@@ -163,23 +161,13 @@ export function AnalysisWorkspace() {
             </div>
 
             <div className="mt-8 flex flex-col gap-6 md:mt-10">
-              <QuestionField
-                ref={questionRef}
-                value={question}
-                disabled={isLoading}
-                onChange={setQuestion}
-                onSubmit={runAnalysis}
-              />
-
               <FormMessage message={error} />
 
               <div className="flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <p className="text-xs text-muted-foreground">
                   {bothReady
-                    ? question.trim()
-                      ? 'Comic Analyst will focus on your question.'
-                      : 'Comic Analyst will provide a complete transition analysis.'
-                    : 'Both panels are required.'}
+                    ? 'The model will classify the transition into one of McCloud’s six types.'
+                    : 'Both panels are required, in reading order.'}
                 </p>
                 <AnalyzeButton ready={bothReady} loading={isLoading} onClick={runAnalysis} />
               </div>
@@ -198,7 +186,6 @@ export function AnalysisWorkspace() {
                     result={result}
                     panels={[panels.first, panels.second]}
                     onAnalyzeAgain={runAnalysis}
-                    onAskAnother={askAnother}
                   />
                 ) : null}
               </div>

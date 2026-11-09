@@ -15,8 +15,8 @@ export function Hero() {
         Trace the Transition.
       </h1>
       <p className="mt-5 max-w-xl text-base leading-relaxed text-pretty text-muted-foreground md:text-lg">
-        Upload two panels and Comic Analyst will identify the visual, contextual, and narrative
-        changes between them.
+        Upload two consecutive panels and Comic Analyst will classify the transition between them
+        into one of Scott McCloud’s six types.
       </p>
     </section>
   )

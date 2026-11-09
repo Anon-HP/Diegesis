@@ -1,14 +1,14 @@
-import { Columns2, ImageUp, TextCursorInput, type LucideIcon } from 'lucide-react'
+import { Columns2, ImageUp, ScanSearch, type LucideIcon } from 'lucide-react'
 
 const STEPS: { number: string; title: string; text: string; icon: LucideIcon }[] = [
   { number: '01', title: 'Upload', text: 'Add the first and second comic panels.', icon: ImageUp },
   {
     number: '02',
-    title: 'Specify',
-    text: 'Optionally tell Comic Analyst what to focus on.',
-    icon: TextCursorInput,
+    title: 'Classify',
+    text: 'A trained model compares the two panels and reads their lettering.',
+    icon: ScanSearch,
   },
-  { number: '03', title: 'Analyze', text: 'Review the transition between the two panels.', icon: Columns2 },
+  { number: '03', title: 'Analyze', text: 'See the McCloud transition type and how confident the model is.', icon: Columns2 },
 ]
 
 export function HowItWorks() {

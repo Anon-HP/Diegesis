@@ -6,7 +6,7 @@ export function Footer() {
           <span className="font-medium text-foreground">Comic Analyst</span> · Visual transition
           analysis
         </p>
-        <p className="font-mono text-[11px]">© 2026 · Prototype — results are simulated</p>
+        <p className="font-mono text-[11px]">© 2026 · Model predictions run locally</p>
       </div>
     </footer>
   )
