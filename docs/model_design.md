@@ -68,7 +68,7 @@ DEPLOYED (models/head.joblib): clipdiff+zs+cos_c+match+low+cue2
 
 ## Training data composition
 
-See `data/manifest.csv` and `STATUS.md` for the actual counts. The training data consists of:
+See `data/manifest.csv` (and the counts in `README.md`) for the actual numbers. The training data consists of:
 
 - `llm` labels on natural consecutive pairs (Claude, following `annotation_guidelines.md`).
 - `synthetic` non-sequiturs: panel A and panel B taken from two different books in the same split.
