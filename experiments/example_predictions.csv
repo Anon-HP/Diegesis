@@ -1,0 +1,9 @@
+pair_id,llm_label (not human GT),"heldout_pred (head_dev, test books unseen)",heldout_conf,"deployed_pred (head.joblib, IN-SAMPLE: trained on these pairs)",deployed_conf
+2438_21_1__21_2,subject-to-subject,subject-to-subject,0.4944,subject-to-subject,0.7227
+282_21_1__21_2,action-to-action,action-to-action,0.4624,action-to-action,0.6219
+1094_35_0__35_1,action-to-action,action-to-action,0.8801,action-to-action,0.8542
+1352_33_2__33_3,scene-to-scene,scene-to-scene,0.4557,scene-to-scene,0.5974
+282_7_7__8_0,subject-to-subject,non-sequitur,0.7731,subject-to-subject,0.4108
+2488_26_4__26_5,scene-to-scene,scene-to-scene,0.4813,action-to-action,0.4062
+1943_3_3__3_4,aspect-to-aspect,subject-to-subject,0.4605,aspect-to-aspect,0.9947
+1352_13_1__13_2,moment-to-moment,subject-to-subject,0.3648,moment-to-moment,0.9299

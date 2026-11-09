@@ -1,0 +1,9 @@
+pair_id,panel_a,panel_b,llm_label
+2438_21_1__21_2,2438/21_1.jpg,2438/21_2.jpg,subject-to-subject
+282_21_1__21_2,282/21_1.jpg,282/21_2.jpg,action-to-action
+1094_35_0__35_1,1094/35_0.jpg,1094/35_1.jpg,action-to-action
+1352_33_2__33_3,1352/33_2.jpg,1352/33_3.jpg,scene-to-scene
+282_7_7__8_0,282/7_7.jpg,282/8_0.jpg,subject-to-subject
+2488_26_4__26_5,2488/26_4.jpg,2488/26_5.jpg,scene-to-scene
+1943_3_3__3_4,1943/3_3.jpg,1943/3_4.jpg,aspect-to-aspect
+1352_13_1__13_2,1352/13_1.jpg,1352/13_2.jpg,moment-to-moment
