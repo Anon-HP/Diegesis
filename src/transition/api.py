@@ -145,7 +145,7 @@ async def analyze(first: UploadFile, second: UploadFile):
     except Exception as e:
         raise ApiError(500, "inference_failed", f"Inference failed: {type(e).__name__}")
     label = validate_label(out["label"])
-    warnings = []
+    warnings = list(out.get("warnings", []))
     if state.predictor.head is None:
         warnings.append("No trained classifier head was found; this is an untrained heuristic fallback.")
     if out["confidence"] < LOW_CONFIDENCE:

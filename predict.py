@@ -37,6 +37,8 @@ def main(argv=None) -> int:
         print(json.dumps(out, indent=2))
     else:
         print(f"{out['label']}\t{out['confidence']:.3f}")
+        for w in out.get("warnings", []):
+            print(f"warning: {w}", file=sys.stderr)
     return 0
 
 

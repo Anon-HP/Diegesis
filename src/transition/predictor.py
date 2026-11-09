@@ -8,10 +8,13 @@ from PIL import Image, UnidentifiedImageError
 
 from .features import PanelFeaturizer, pair_vector
 from .labels import LABELS, NUM_CLASSES, validate_label
+from .ocr import TESSERACT
 from .paths import MODELS_DIR
 from .rules import rule_predict
 
 MIN_SIDE = 32
+NO_OCR_WARNING = ("Tesseract OCR is not installed, so caption text was not read and predictions are less "
+                  "reliable. Install it (e.g. `sudo apt install tesseract-ocr`).")
 
 
 class InputError(ValueError):
@@ -62,9 +65,10 @@ class TransitionPredictor:
             conf = float(p.max())
             probs = {l: float(p[i]) for i, l in enumerate(LABELS)}
             method = f"trained head {self.head_path.name} ({self.head['model_name']}|{self.head['features']})"
+        warnings = [] if TESSERACT else [NO_OCR_WARNING]
         return {"label": validate_label(label), "confidence": round(float(conf), 4),
                 "probabilities": {k: round(v, 4) for k, v in probs.items()}, "method": method,
-                "ocr_a": a.text, "ocr_b": b.text}
+                "warnings": warnings, "ocr_a": a.text, "ocr_b": b.text}
 
     def predict(self, path_a: str | Path, path_b: str | Path) -> dict:
         return self.predict_images(load_panel(path_a), load_panel(path_b))

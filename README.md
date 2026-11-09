@@ -32,6 +32,8 @@ python3 -m venv .venv
   model loading and Tesseract.
 - Inputs are validated. A missing file, an unreadable image or an image under 32 px exits with code 2. The
   classifier needs nothing except the two images: no page, no other panels, no metadata.
+- If Tesseract is not installed, prediction still works but no caption text is read; the CLI, the API and the
+  web app all show a warning saying so.
 - If `models/head.joblib` is missing, the CLI falls back to an untrained heuristic and says so in the `method` field.
 
 ## Web app (local)

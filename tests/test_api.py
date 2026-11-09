@@ -126,6 +126,13 @@ def test_warnings_for_low_confidence_and_non_sequitur(client, monkeypatch):
     assert len(j["warnings"]) == 2
 
 
+def test_predictor_warnings_are_passed_through(client, monkeypatch):
+    stub = StubPredictor()
+    stub.predict_images = lambda a, b: dict(StubPredictor.predict_images(stub, a, b), warnings=["no OCR"])
+    monkeypatch.setattr(api.state, "predictor", stub)
+    assert post(client, png(), png()).json()["warnings"] == ["no OCR"]
+
+
 @pytest.mark.e2e
 def test_api_end_to_end_real_model(monkeypatch):
     from transition.paths import PANELS_DIR
