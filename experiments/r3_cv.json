@@ -1,0 +1,2673 @@
+{
+ "exp": "r3_cv",
+ "args": {
+  "manifest": "/home/anonhp/Codes/English-Comics-Panel-Transition/data/manifest.csv",
+  "train_sources": "llm,human,synthetic",
+  "subsets": "clip+low+cue,clip+dino+match+text+low+cue,clip+dino+cos_c+match+text+low+cue+cue2,zs+cos_c+match+low+cue2,clipdiff+zs+cos_c+match+low+cue2,clip+dino+zs+cos_c+match+text+low+cue+cue2",
+  "models": "logreg,logreg_strong,logreg_pca",
+  "folds": 5,
+  "min_confidence": "low",
+  "exp": "r3_cv",
+  "final_test": true,
+  "deploy": true
+ },
+ "cv": {
+  "baseline:majority": {
+   "n": 652,
+   "accuracy": 0.40337423312883436,
+   "balanced_accuracy": 0.16666666666666666,
+   "macro_f1_present_classes": 0.09581056466302368,
+   "macro_f1_all6": 0.09581056466302368,
+   "macro_f1_supported": 0.14371584699453552,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.40337423312883436,
+     "recall": 1.0,
+     "f1": 0.5748633879781421,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     0,
+     22,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     239,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     263,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     124,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "baseline:rules": {
+   "n": 652,
+   "accuracy": 0.3726993865030675,
+   "balanced_accuracy": 0.19414470137969767,
+   "macro_f1_present_classes": 0.16417263895524764,
+   "macro_f1_all6": 0.16417263895524764,
+   "macro_f1_supported": 0.24625895843287146,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.4722222222222222,
+     "recall": 0.07112970711297072,
+     "f1": 0.12363636363636364,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.39767441860465114,
+     "recall": 0.6501901140684411,
+     "f1": 0.4935064935064935,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3142857142857143,
+     "recall": 0.4435483870967742,
+     "f1": 0.36789297658862874,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     3,
+     14,
+     5,
+     0,
+     0
+    ],
+    [
+     0,
+     17,
+     181,
+     39,
+     0,
+     2
+    ],
+    [
+     0,
+     13,
+     171,
+     75,
+     0,
+     4
+    ],
+    [
+     0,
+     3,
+     61,
+     55,
+     0,
+     5
+    ],
+    [
+     0,
+     0,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "logreg|clip+low+cue": {
+   "n": 652,
+   "accuracy": 0.455521472392638,
+   "balanced_accuracy": 0.22596872704169502,
+   "macro_f1_present_classes": 0.2339033423677377,
+   "macro_f1_all6": 0.2339033423677377,
+   "macro_f1_supported": 0.35085501355160653,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.2,
+     "recall": 0.045454545454545456,
+     "f1": 0.07407407407407407,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.49609375,
+     "recall": 0.5313807531380753,
+     "f1": 0.5131313131313131,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4910394265232975,
+     "recall": 0.5209125475285171,
+     "f1": 0.5055350553505535,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3902439024390244,
+     "recall": 0.25806451612903225,
+     "f1": 0.3106796116504854,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     1,
+     6,
+     13,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     127,
+     85,
+     21,
+     0,
+     5
+    ],
+    [
+     2,
+     87,
+     137,
+     27,
+     0,
+     10
+    ],
+    [
+     1,
+     34,
+     42,
+     32,
+     0,
+     15
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3424657534246575
+  },
+  "logreg_strong|clip+low+cue": {
+   "n": 652,
+   "accuracy": 0.455521472392638,
+   "balanced_accuracy": 0.23048550783496513,
+   "macro_f1_present_classes": 0.23737817405347394,
+   "macro_f1_all6": 0.23737817405347394,
+   "macro_f1_supported": 0.3560672610802109,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.1,
+     "recall": 0.045454545454545456,
+     "f1": 0.0625,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5219123505976095,
+     "recall": 0.5481171548117155,
+     "f1": 0.5346938775510204,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.48659003831417624,
+     "recall": 0.4828897338403042,
+     "f1": 0.4847328244274809,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3877551020408163,
+     "recall": 0.3064516129032258,
+     "f1": 0.34234234234234234,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     1,
+     5,
+     14,
+     2,
+     0,
+     0
+    ],
+    [
+     1,
+     131,
+     80,
+     22,
+     0,
+     5
+    ],
+    [
+     7,
+     82,
+     127,
+     36,
+     0,
+     11
+    ],
+    [
+     1,
+     31,
+     38,
+     38,
+     0,
+     16
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3561643835616438
+  },
+  "logreg_pca|clip+low+cue": {
+   "n": 652,
+   "accuracy": 0.4294478527607362,
+   "balanced_accuracy": 0.22294605704882334,
+   "macro_f1_present_classes": 0.22728350209799064,
+   "macro_f1_all6": 0.22728350209799064,
+   "macro_f1_supported": 0.34092525314698596,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.06666666666666667,
+     "recall": 0.045454545454545456,
+     "f1": 0.05405405405405406,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.56,
+     "recall": 0.5271966527196653,
+     "f1": 0.5431034482758621,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.49327354260089684,
+     "recall": 0.41825095057034223,
+     "f1": 0.45267489711934156,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.2866666666666667,
+     "recall": 0.3467741935483871,
+     "f1": 0.31386861313868614,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     1,
+     5,
+     10,
+     5,
+     0,
+     1
+    ],
+    [
+     7,
+     126,
+     59,
+     43,
+     0,
+     4
+    ],
+    [
+     6,
+     68,
+     110,
+     58,
+     0,
+     21
+    ],
+    [
+     1,
+     24,
+     43,
+     43,
+     0,
+     13
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.4520547945205479
+  },
+  "logreg|clip+dino+match+text+low+cue": {
+   "n": 652,
+   "accuracy": 0.45245398773006135,
+   "balanced_accuracy": 0.381268901710847,
+   "macro_f1_present_classes": 0.22663361573481033,
+   "macro_f1_all6": 0.22663361573481033,
+   "macro_f1_supported": 0.32479890845070036,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5038167938931297,
+     "recall": 0.5523012552301255,
+     "f1": 0.5269461077844312,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4734982332155477,
+     "recall": 0.5095057034220533,
+     "f1": 0.4908424908424908,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.37333333333333335,
+     "recall": 0.22580645161290322,
+     "f1": 0.2814070351758794,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.03125,
+     "recall": 1.0,
+     "f1": 0.06060606060606061,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     6,
+     16,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     132,
+     82,
+     19,
+     0,
+     6
+    ],
+    [
+     0,
+     91,
+     134,
+     28,
+     0,
+     10
+    ],
+    [
+     0,
+     31,
+     50,
+     28,
+     0,
+     15
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.2876712328767123
+  },
+  "logreg_strong|clip+dino+match+text+low+cue": {
+   "n": 652,
+   "accuracy": 0.45245398773006135,
+   "balanced_accuracy": 0.382042910679147,
+   "macro_f1_present_classes": 0.22716071125722415,
+   "macro_f1_all6": 0.22716071125722415,
+   "macro_f1_supported": 0.32603518453289504,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5076335877862596,
+     "recall": 0.5564853556485355,
+     "f1": 0.530938123752495,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.47653429602888087,
+     "recall": 0.5019011406844106,
+     "f1": 0.4888888888888889,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3625,
+     "recall": 0.23387096774193547,
+     "f1": 0.28431372549019607,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.030303030303030304,
+     "recall": 1.0,
+     "f1": 0.058823529411764705,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     6,
+     15,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     133,
+     80,
+     20,
+     0,
+     6
+    ],
+    [
+     0,
+     91,
+     132,
+     30,
+     0,
+     10
+    ],
+    [
+     0,
+     30,
+     49,
+     29,
+     0,
+     16
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3287671232876712
+  },
+  "logreg_pca|clip+dino+match+text+low+cue": {
+   "n": 652,
+   "accuracy": 0.4340490797546012,
+   "balanced_accuracy": 0.23463073158766198,
+   "macro_f1_present_classes": 0.23761599807402325,
+   "macro_f1_all6": 0.23761599807402325,
+   "macro_f1_supported": 0.3564239971110349,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.1,
+     "recall": 0.09090909090909091,
+     "f1": 0.09523809523809523,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5478260869565217,
+     "recall": 0.5271966527196653,
+     "f1": 0.5373134328358209,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.48868778280542985,
+     "recall": 0.41064638783269963,
+     "f1": 0.4462809917355372,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3197278911564626,
+     "recall": 0.3790322580645161,
+     "f1": 0.34686346863468637,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     2,
+     4,
+     12,
+     3,
+     0,
+     1
+    ],
+    [
+     3,
+     126,
+     63,
+     38,
+     0,
+     9
+    ],
+    [
+     12,
+     76,
+     108,
+     57,
+     0,
+     10
+    ],
+    [
+     3,
+     22,
+     38,
+     47,
+     0,
+     14
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3698630136986301
+  },
+  "logreg|clip+dino+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.4601226993865031,
+   "balanced_accuracy": 0.3845647425347276,
+   "macro_f1_present_classes": 0.22976571428085057,
+   "macro_f1_all6": 0.22976571428085057,
+   "macro_f1_supported": 0.3294970562697607,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5153846153846153,
+     "recall": 0.5606694560669456,
+     "f1": 0.5370741482965932,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4823943661971831,
+     "recall": 0.5209125475285171,
+     "f1": 0.5009140767824497,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3684210526315789,
+     "recall": 0.22580645161290322,
+     "f1": 0.28,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.03125,
+     "recall": 1.0,
+     "f1": 0.06060606060606061,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     6,
+     16,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     134,
+     80,
+     19,
+     0,
+     6
+    ],
+    [
+     0,
+     88,
+     137,
+     29,
+     0,
+     9
+    ],
+    [
+     0,
+     30,
+     50,
+     28,
+     0,
+     16
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.2876712328767123
+  },
+  "logreg_strong|clip+dino+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.4539877300613497,
+   "balanced_accuracy": 0.38267662424061716,
+   "macro_f1_present_classes": 0.228122040233259,
+   "macro_f1_all6": 0.228122040233259,
+   "macro_f1_supported": 0.3274771779969473,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5076335877862596,
+     "recall": 0.5564853556485355,
+     "f1": 0.530938123752495,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.47330960854092524,
+     "recall": 0.5057034220532319,
+     "f1": 0.4889705882352941,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3815789473684211,
+     "recall": 0.23387096774193547,
+     "f1": 0.29,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.030303030303030304,
+     "recall": 1.0,
+     "f1": 0.058823529411764705,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     6,
+     16,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     133,
+     81,
+     19,
+     0,
+     6
+    ],
+    [
+     0,
+     92,
+     133,
+     28,
+     0,
+     10
+    ],
+    [
+     0,
+     29,
+     50,
+     29,
+     0,
+     16
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3424657534246575
+  },
+  "logreg_pca|clip+dino+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.4294478527607362,
+   "balanced_accuracy": 0.23279322741151617,
+   "macro_f1_present_classes": 0.23466217219642593,
+   "macro_f1_all6": 0.23466217219642593,
+   "macro_f1_supported": 0.3519932582946389,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.09090909090909091,
+     "recall": 0.09090909090909091,
+     "f1": 0.09090909090909091,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5497835497835498,
+     "recall": 0.5313807531380753,
+     "f1": 0.5404255319148936,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.48598130841121495,
+     "recall": 0.39543726235741444,
+     "f1": 0.4360587002096436,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3092105263157895,
+     "recall": 0.3790322580645161,
+     "f1": 0.34057971014492755,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     2,
+     4,
+     12,
+     3,
+     0,
+     1
+    ],
+    [
+     3,
+     127,
+     61,
+     40,
+     0,
+     8
+    ],
+    [
+     14,
+     75,
+     104,
+     60,
+     0,
+     10
+    ],
+    [
+     3,
+     23,
+     37,
+     47,
+     0,
+     14
+    ],
+    [
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3698630136986301
+  },
+  "logreg|zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.3941717791411043,
+   "balanced_accuracy": 0.260042131038612,
+   "macro_f1_present_classes": 0.24217037467192012,
+   "macro_f1_all6": 0.24217037467192012,
+   "macro_f1_supported": 0.3632555620078802,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.11290322580645161,
+     "recall": 0.3181818181818182,
+     "f1": 0.16666666666666666,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5248868778280543,
+     "recall": 0.48535564853556484,
+     "f1": 0.5043478260869565,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4779874213836478,
+     "recall": 0.2889733840304182,
+     "f1": 0.36018957345971564,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3841059602649007,
+     "recall": 0.46774193548387094,
+     "f1": 0.4218181818181818,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     7,
+     2,
+     9,
+     3,
+     0,
+     1
+    ],
+    [
+     18,
+     116,
+     50,
+     38,
+     1,
+     16
+    ],
+    [
+     34,
+     82,
+     76,
+     51,
+     3,
+     17
+    ],
+    [
+     3,
+     19,
+     24,
+     58,
+     2,
+     18
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.726027397260274
+  },
+  "logreg_strong|zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.3205521472392638,
+   "balanced_accuracy": 0.24894159400215643,
+   "macro_f1_present_classes": 0.20923456225445344,
+   "macro_f1_all6": 0.20923456225445344,
+   "macro_f1_supported": 0.31385184338168015,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.10377358490566038,
+     "recall": 0.5,
+     "f1": 0.171875,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5170731707317073,
+     "recall": 0.4435146443514644,
+     "f1": 0.4774774774774775,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4368932038834951,
+     "recall": 0.17110266159695817,
+     "f1": 0.2459016393442623,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.34306569343065696,
+     "recall": 0.3790322580645161,
+     "f1": 0.36015325670498083,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     11,
+     2,
+     4,
+     3,
+     0,
+     2
+    ],
+    [
+     37,
+     106,
+     35,
+     36,
+     1,
+     24
+    ],
+    [
+     51,
+     74,
+     45,
+     50,
+     7,
+     36
+    ],
+    [
+     7,
+     21,
+     19,
+     47,
+     4,
+     26
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.7808219178082192
+  },
+  "logreg_pca|zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.3911042944785276,
+   "balanced_accuracy": 0.24886389704471404,
+   "macro_f1_present_classes": 0.2370306276327769,
+   "macro_f1_all6": 0.2370306276327769,
+   "macro_f1_supported": 0.35554594144916535,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.12,
+     "recall": 0.2727272727272727,
+     "f1": 0.16666666666666666,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5135135135135135,
+     "recall": 0.4769874476987448,
+     "f1": 0.4945770065075922,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.44021739130434784,
+     "recall": 0.30798479087452474,
+     "f1": 0.3624161073825503,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3673469387755102,
+     "recall": 0.43548387096774194,
+     "f1": 0.3985239852398524,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     6,
+     2,
+     10,
+     3,
+     0,
+     1
+    ],
+    [
+     15,
+     114,
+     64,
+     35,
+     0,
+     11
+    ],
+    [
+     26,
+     82,
+     81,
+     54,
+     3,
+     17
+    ],
+    [
+     3,
+     22,
+     29,
+     54,
+     1,
+     15
+    ],
+    [
+     0,
+     2,
+     0,
+     0,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.7397260273972602
+  },
+  "logreg|clipdiff+zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.43098159509202455,
+   "balanced_accuracy": 0.21835261735698827,
+   "macro_f1_present_classes": 0.2272701243711699,
+   "macro_f1_all6": 0.2272701243711699,
+   "macro_f1_supported": 0.34090518655675484,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.125,
+     "recall": 0.045454545454545456,
+     "f1": 0.06666666666666667,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.47470817120622566,
+     "recall": 0.5104602510460251,
+     "f1": 0.49193548387096775,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4765625,
+     "recall": 0.46387832699619774,
+     "f1": 0.4701348747591522,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3956043956043956,
+     "recall": 0.2903225806451613,
+     "f1": 0.33488372093023255,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     1,
+     11,
+     9,
+     1,
+     0,
+     0
+    ],
+    [
+     1,
+     122,
+     87,
+     19,
+     0,
+     10
+    ],
+    [
+     5,
+     89,
+     122,
+     34,
+     0,
+     13
+    ],
+    [
+     1,
+     34,
+     36,
+     36,
+     0,
+     17
+    ],
+    [
+     0,
+     1,
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.410958904109589
+  },
+  "logreg_strong|clipdiff+zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.4171779141104294,
+   "balanced_accuracy": 0.21568159466869133,
+   "macro_f1_present_classes": 0.22391667428135734,
+   "macro_f1_all6": 0.22391667428135734,
+   "macro_f1_supported": 0.335875011422036,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.1111111111111111,
+     "recall": 0.045454545454545456,
+     "f1": 0.06451612903225806,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.4826254826254826,
+     "recall": 0.5230125523012552,
+     "f1": 0.5020080321285141,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4588744588744589,
+     "recall": 0.40304182509505704,
+     "f1": 0.4291497975708502,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.37735849056603776,
+     "recall": 0.3225806451612903,
+     "f1": 0.34782608695652173,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     1,
+     7,
+     12,
+     2,
+     0,
+     0
+    ],
+    [
+     2,
+     125,
+     77,
+     27,
+     0,
+     8
+    ],
+    [
+     5,
+     95,
+     106,
+     36,
+     0,
+     21
+    ],
+    [
+     1,
+     30,
+     35,
+     40,
+     0,
+     18
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.547945205479452
+  },
+  "logreg_pca|clipdiff+zs+cos_c+match+low+cue2": {
+   "n": 652,
+   "accuracy": 0.41411042944785276,
+   "balanced_accuracy": 0.2458082132804634,
+   "macro_f1_present_classes": 0.2507502141455739,
+   "macro_f1_all6": 0.2507502141455739,
+   "macro_f1_supported": 0.37612532121836084,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.2777777777777778,
+     "recall": 0.22727272727272727,
+     "f1": 0.25,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5043859649122807,
+     "recall": 0.4811715481171548,
+     "f1": 0.4925053533190578,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4622222222222222,
+     "recall": 0.39543726235741444,
+     "f1": 0.4262295081967213,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.30666666666666664,
+     "recall": 0.3709677419354839,
+     "f1": 0.3357664233576642,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     5,
+     3,
+     10,
+     3,
+     0,
+     1
+    ],
+    [
+     4,
+     115,
+     75,
+     41,
+     0,
+     4
+    ],
+    [
+     9,
+     78,
+     104,
+     59,
+     0,
+     13
+    ],
+    [
+     0,
+     30,
+     35,
+     46,
+     0,
+     13
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.4931506849315068
+  },
+  "logreg|clip+dino+zs+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.455521472392638,
+   "balanced_accuracy": 0.3835012473268818,
+   "macro_f1_present_classes": 0.22897768864240753,
+   "macro_f1_all6": 0.22897768864240753,
+   "macro_f1_supported": 0.32831501781209615,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5151515151515151,
+     "recall": 0.5690376569037657,
+     "f1": 0.5407554671968191,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.46785714285714286,
+     "recall": 0.49809885931558934,
+     "f1": 0.48250460405156537,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3815789473684211,
+     "recall": 0.23387096774193547,
+     "f1": 0.29,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.03125,
+     "recall": 1.0,
+     "f1": 0.06060606060606061,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     6,
+     16,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     136,
+     80,
+     16,
+     0,
+     7
+    ],
+    [
+     0,
+     91,
+     131,
+     31,
+     0,
+     10
+    ],
+    [
+     0,
+     29,
+     52,
+     29,
+     0,
+     14
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3013698630136986
+  },
+  "logreg_strong|clip+dino+zs+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.4539877300613497,
+   "balanced_accuracy": 0.3835142697171819,
+   "macro_f1_present_classes": 0.22870185840291593,
+   "macro_f1_all6": 0.22870185840291593,
+   "macro_f1_supported": 0.3287670733186596,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5113636363636364,
+     "recall": 0.5648535564853556,
+     "f1": 0.536779324055666,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4744525547445255,
+     "recall": 0.49429657794676807,
+     "f1": 0.48417132216014896,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.375,
+     "recall": 0.24193548387096775,
+     "f1": 0.29411764705882354,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.029411764705882353,
+     "recall": 1.0,
+     "f1": 0.05714285714285714,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     5,
+     17,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     135,
+     78,
+     19,
+     0,
+     7
+    ],
+    [
+     0,
+     92,
+     130,
+     31,
+     0,
+     10
+    ],
+    [
+     0,
+     30,
+     48,
+     30,
+     0,
+     16
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3424657534246575
+  },
+  "logreg_pca|clip+dino+zs+cos_c+match+text+low+cue+cue2": {
+   "n": 652,
+   "accuracy": 0.4279141104294479,
+   "balanced_accuracy": 0.23717172087814462,
+   "macro_f1_present_classes": 0.24067087442759397,
+   "macro_f1_all6": 0.24067087442759397,
+   "macro_f1_supported": 0.36100631164139096,
+   "supported_classes": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect",
+    "non-sequitur"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.13636363636363635,
+     "recall": 0.13636363636363635,
+     "f1": 0.13636363636363635,
+     "support": 22
+    },
+    "action-to-action": {
+     "precision": 0.5288888888888889,
+     "recall": 0.497907949790795,
+     "f1": 0.5129310344827587,
+     "support": 239
+    },
+    "subject-to-subject": {
+     "precision": 0.4827586206896552,
+     "recall": 0.42585551330798477,
+     "f1": 0.45252525252525255,
+     "support": 263
+    },
+    "scene-to-scene": {
+     "precision": 0.3237410071942446,
+     "recall": 0.3629032258064516,
+     "f1": 0.34220532319391633,
+     "support": 124
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    }
+   },
+   "confusion_matrix": [
+    [
+     3,
+     4,
+     10,
+     4,
+     0,
+     1
+    ],
+    [
+     5,
+     119,
+     72,
+     35,
+     0,
+     8
+    ],
+    [
+     9,
+     76,
+     112,
+     54,
+     0,
+     12
+    ],
+    [
+     5,
+     24,
+     37,
+     45,
+     0,
+     13
+    ],
+    [
+     0,
+     2,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "synthetic_nonseq_recall": 0.3698630136986301
+  }
+ },
+ "selected": "logreg_pca|clipdiff+zs+cos_c+match+low+cue2",
+ "test": {
+  "n": 136,
+  "accuracy": 0.375,
+  "balanced_accuracy": 0.23157051282051283,
+  "macro_f1_present_classes": 0.23649147631561215,
+  "macro_f1_all6": 0.19707623026301013,
+  "macro_f1_supported": 0.39415246052602027,
+  "supported_classes": [
+   "action-to-action",
+   "subject-to-subject",
+   "scene-to-scene"
+  ],
+  "classes_present": [
+   "moment-to-moment",
+   "action-to-action",
+   "subject-to-subject",
+   "scene-to-scene",
+   "aspect-to-aspect"
+  ],
+  "per_class": {
+   "moment-to-moment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 3
+   },
+   "action-to-action": {
+    "precision": 0.5555555555555556,
+    "recall": 0.4807692307692308,
+    "f1": 0.5154639175257731,
+    "support": 52
+   },
+   "subject-to-subject": {
+    "precision": 0.35135135135135137,
+    "recall": 0.2708333333333333,
+    "f1": 0.3058823529411765,
+    "support": 48
+   },
+   "scene-to-scene": {
+    "precision": 0.325,
+    "recall": 0.40625,
+    "f1": 0.3611111111111111,
+    "support": 32
+   },
+   "aspect-to-aspect": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 1
+   },
+   "non-sequitur": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 0
+   }
+  },
+  "confusion_matrix": [
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    25,
+    12,
+    12,
+    0,
+    0
+   ],
+   [
+    3,
+    13,
+    13,
+    15,
+    0,
+    4
+   ],
+   [
+    1,
+    7,
+    8,
+    13,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "label_sources": [
+   "llm"
+  ],
+  "n_books": 31,
+  "synthetic_nonseq_recall": 0.6
+ },
+ "test_random_stratum": {
+  "n": 61,
+  "accuracy": 0.4262295081967213,
+  "balanced_accuracy": 0.3304761904761905,
+  "macro_f1_present_classes": 0.31457431457431456,
+  "macro_f1_all6": 0.20971620971620972,
+  "macro_f1_supported": 0.41943241943241943,
+  "supported_classes": [
+   "action-to-action",
+   "subject-to-subject",
+   "scene-to-scene"
+  ],
+  "classes_present": [
+   "moment-to-moment",
+   "action-to-action",
+   "subject-to-subject",
+   "scene-to-scene"
+  ],
+  "per_class": {
+   "moment-to-moment": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 1
+   },
+   "action-to-action": {
+    "precision": 0.5833333333333334,
+    "recall": 0.56,
+    "f1": 0.5714285714285714,
+    "support": 25
+   },
+   "subject-to-subject": {
+    "precision": 0.3333333333333333,
+    "recall": 0.19047619047619047,
+    "f1": 0.24242424242424243,
+    "support": 21
+   },
+   "scene-to-scene": {
+    "precision": 0.36363636363636365,
+    "recall": 0.5714285714285714,
+    "f1": 0.4444444444444444,
+    "support": 14
+   },
+   "aspect-to-aspect": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 0
+   },
+   "non-sequitur": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 0
+   }
+  },
+  "confusion_matrix": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    14,
+    5,
+    5,
+    0,
+    0
+   ],
+   [
+    1,
+    6,
+    4,
+    9,
+    0,
+    1
+   ],
+   [
+    0,
+    4,
+    2,
+    8,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ]
+ },
+ "test_baselines": {
+  "majority_from_dev": {
+   "n": 136,
+   "accuracy": 0.35294117647058826,
+   "balanced_accuracy": 0.2,
+   "macro_f1_present_classes": 0.10434782608695652,
+   "macro_f1_all6": 0.08695652173913043,
+   "macro_f1_supported": 0.17391304347826086,
+   "supported_classes": [
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "action-to-action": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 52
+    },
+    "subject-to-subject": {
+     "precision": 0.35294117647058826,
+     "recall": 1.0,
+     "f1": 0.5217391304347826,
+     "support": 48
+    },
+    "scene-to-scene": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 32
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 0
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     0,
+     3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     52,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     48,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     32,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  },
+  "rules": {
+   "n": 136,
+   "accuracy": 0.33088235294117646,
+   "balanced_accuracy": 0.2157051282051282,
+   "macro_f1_present_classes": 0.18227881219203765,
+   "macro_f1_all6": 0.15189901016003138,
+   "macro_f1_supported": 0.30379802032006276,
+   "supported_classes": [
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene"
+   ],
+   "classes_present": [
+    "moment-to-moment",
+    "action-to-action",
+    "subject-to-subject",
+    "scene-to-scene",
+    "aspect-to-aspect"
+   ],
+   "per_class": {
+    "moment-to-moment": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 3
+    },
+    "action-to-action": {
+     "precision": 0.6,
+     "recall": 0.057692307692307696,
+     "f1": 0.10526315789473684,
+     "support": 52
+    },
+    "subject-to-subject": {
+     "precision": 0.3181818181818182,
+     "recall": 0.5833333333333334,
+     "f1": 0.4117647058823529,
+     "support": 48
+    },
+    "scene-to-scene": {
+     "precision": 0.358974358974359,
+     "recall": 0.4375,
+     "f1": 0.39436619718309857,
+     "support": 32
+    },
+    "aspect-to-aspect": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 1
+    },
+    "non-sequitur": {
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0,
+     "support": 0
+    }
+   },
+   "confusion_matrix": [
+    [
+     0,
+     0,
+     2,
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     3,
+     40,
+     8,
+     0,
+     1
+    ],
+    [
+     0,
+     2,
+     28,
+     16,
+     0,
+     2
+    ],
+    [
+     0,
+     0,
+     17,
+     14,
+     0,
+     1
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
+  }
+ }
+}
