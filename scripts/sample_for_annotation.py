@@ -160,7 +160,7 @@ def main():
             test_unit_delay()
         out_rows.append({"pair_id": r["pair_id"], "book": r["book"], "split": r["split"],
                          "panel_a": r["panel_a"], "panel_b": r["panel_b"], "cross_page": r["cross_page"],
-                         "stratum": r["stratum"], "composite": str(cp),
+                         "stratum": r["stratum"], "composite": cp.relative_to(WORKSPACE).as_posix(),
                          "batch": f"{args.tag}_{i // args.batch_size:02d}"})
     out = ANN_DIR / f"sample_{args.tag}.csv"
     for b in sorted({r["batch"] for r in out_rows}):  # batches first; the sample CSV marks completion

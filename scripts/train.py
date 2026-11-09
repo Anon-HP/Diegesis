@@ -41,7 +41,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from extract_features import load_record  # noqa: E402
 from transition.features import FEATURE_SUBSETS, needs_centers, pair_vector  # noqa: E402
 from transition.labels import LABEL2ID, LABELS, NUM_CLASSES  # noqa: E402
-from transition.paths import DATA_DIR, EXP_DIR, MODELS_DIR  # noqa: E402
+from transition.paths import DATA_DIR, EXP_DIR, MODELS_DIR, REPO  # noqa: E402
 from transition.runctl import (atomic_json, atomic_open, atomic_savez, atomic_write_text,  # noqa: E402
                                exit_interrupted, fingerprint, install_stop_handler, load_valid_npz,
                                test_unit_delay)
@@ -142,7 +142,11 @@ def main():
         centers["zs"] = ClipEncoder(device="cpu").encode_texts(ZS_PROMPTS)
     feats = {s: np.stack([pair_vector(recs[r["panel_a"]], recs[r["panel_b"]], s, centers) for r in rows])
              for s in args.subsets.split(",")}
-    res = {"exp": args.exp, "args": vars(args), "cv": {}}
+    rec_args = dict(vars(args))
+    mp = Path(args.manifest).resolve()
+    if mp.is_relative_to(REPO):  # record repo-relative, never a machine-specific absolute path
+        rec_args["manifest"] = mp.relative_to(REPO).as_posix()
+    res = {"exp": args.exp, "args": rec_args, "cv": {}}
     di = np.where(dev)[0]
     yd, gd, nd = y[di], groups[di], natural[di]
     folds = list(StratifiedGroupKFold(n_splits=args.folds, shuffle=True, random_state=0).split(di, yd, gd))

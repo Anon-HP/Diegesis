@@ -27,7 +27,7 @@ python3 -m venv .venv
 .venv/bin/python predict.py panel_A.jpg panel_B.jpg --cpu    # force CPU
 ```
 
-- The first run downloads OpenCLIP ViT-B/16 (about 600 MB) and DINOv2 ViT-B/14 (about 350 MB) into `$HF_HOME`.
+- The first run downloads OpenCLIP ViT-B/16 (about 600 MB) and DINOv2 ViT-B/14 (about 350 MB) into `$HF_HOME` (default `workspace/hf_cache`).
 - One prediction takes about 2 s once the models are loaded. A cold CLI start takes about 25–30 s, most of it
   model loading and Tesseract.
 - Inputs are validated. A missing file, an unreadable image or an image under 32 px exits with code 2. The
@@ -132,7 +132,8 @@ python3 scripts/build_manifest.py --n-synthetic 100
 .venv/bin/python -m pytest -q -m ui                                         # browser tests (needs both servers + Playwright)
 ```
 
-Large files live outside the repo, under `CPT_WORKSPACE` (default `/home/anonhp/Hard-Drive/comic-transition-workspace`).
+Large files (panels, caches, model weights) go in a workspace folder: `workspace/` inside the repo by default
+(git-ignored). To keep them on another disk, make `workspace` a symlink or set `CPT_WORKSPACE=/path/to/dir`.
 
 ## Repository map
 

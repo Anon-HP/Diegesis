@@ -1,7 +1,7 @@
 {
  "exp": "r3_cv_hgb",
  "args": {
-  "manifest": "/home/anonhp/Codes/English-Comics-Panel-Transition/data/manifest.csv",
+  "manifest": "data/manifest.csv",
   "train_sources": "llm,human,synthetic",
   "subsets": "zs+cos_c+match+low+cue2",
   "models": "hgb",

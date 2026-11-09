@@ -1,6 +1,6 @@
 {
  "exp": "r1_cv",
- "manifest": "/home/anonhp/Codes/English-Comics-Panel-Transition/data/manifest.csv",
+ "manifest": "data/manifest.csv",
  "train_sources": "llm,human,synthetic",
  "cv": {
   "majority": {

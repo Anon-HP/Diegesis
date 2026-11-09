@@ -102,7 +102,7 @@ def main():
             composite(PANELS_DIR / r["panel_a"], PANELS_DIR / r["panel_b"], cp)
         out_rows.append({"pair_id": r["pair_id"], "book": r["book"], "split": r["split"], "panel_a": r["panel_a"],
                          "panel_b": r["panel_b"], "cross_page": r["cross_page"], "stratum": r["stratum"],
-                         "composite": str(cp), "batch": f"{args.tag}_{i // args.batch_size:02d}"})
+                         "composite": cp.relative_to(WORKSPACE).as_posix(), "batch": f"{args.tag}_{i // args.batch_size:02d}"})
     for b in sorted({r["batch"] for r in out_rows}):
         with atomic_open(ANN_DIR / "batches" / f"{b}.csv", "w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=["pair_id", "composite"])

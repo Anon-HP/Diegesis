@@ -95,7 +95,7 @@ The web app always uses the **deployed** model. To demonstrate held-out behaviou
 
 The panels come from the COMICS dataset (US Golden Age comics, originally English), extracted under
 `$CPT_WORKSPACE/data/comics/panels_dl/raw_panel_images/`
-(default `/home/anonhp/Hard-Drive/comic-transition-workspace/…`):
+(`$CPT_WORKSPACE` defaults to `workspace/` in the repository):
 
 | Step | Panel A | Panel B |
 |---|---|---|

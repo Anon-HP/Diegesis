@@ -13,7 +13,9 @@
 # Extract with:  tar -xzf OUT_FILE --skip-old-files  (the truncated final book is expected).
 set -u
 TARGET=${1:-3500000000}
-F=${2:-/home/anonhp/Hard-Drive/comic-transition-workspace/data/comics/raw_panel_images.part.tar.gz}
+ROOT=$(cd "$(dirname "$0")/.." && pwd)
+WS=${CPT_WORKSPACE:-$ROOT/workspace}
+F=${2:-$WS/data/comics/raw_panel_images.part.tar.gz}
 URL=${3:-https://obj.umiacs.umd.edu/comics/raw_panel_images.tar.gz}
 CHUNK="$F.chunk"
 HDR="$F.hdr"

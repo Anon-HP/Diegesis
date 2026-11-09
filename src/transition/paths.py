@@ -4,7 +4,8 @@ import os
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-WORKSPACE = Path(os.environ.get("CPT_WORKSPACE", "/home/anonhp/Hard-Drive/comic-transition-workspace"))
+# Default: <repo>/workspace (git-ignored). Make it a symlink, or set CPT_WORKSPACE, to keep large files on another disk.
+WORKSPACE = Path(os.environ.get("CPT_WORKSPACE", REPO / "workspace"))
 COMICS_DIR = Path(os.environ.get("CPT_COMICS_DIR", WORKSPACE / "data" / "comics"))
 PANELS_DIR = Path(os.environ.get("CPT_PANELS_DIR", COMICS_DIR / "panels_dl" / "raw_panel_images"))
 CACHE_DIR = Path(os.environ.get("CPT_CACHE_DIR", WORKSPACE / "cache"))

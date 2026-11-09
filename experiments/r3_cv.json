@@ -1,7 +1,7 @@
 {
  "exp": "r3_cv",
  "args": {
-  "manifest": "/home/anonhp/Codes/English-Comics-Panel-Transition/data/manifest.csv",
+  "manifest": "data/manifest.csv",
   "train_sources": "llm,human,synthetic",
   "subsets": "clip+low+cue,clip+dino+match+text+low+cue,clip+dino+cos_c+match+text+low+cue+cue2,zs+cos_c+match+low+cue2,clipdiff+zs+cos_c+match+low+cue2,clip+dino+zs+cos_c+match+text+low+cue+cue2",
   "models": "logreg,logreg_strong,logreg_pca",

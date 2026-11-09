@@ -1,7 +1,7 @@
 You are annotating comic panel transitions for a research dataset. Work carefully and independently.
 
-1. Read the guidelines in full: /home/anonhp/Codes/English-Comics-Panel-Transition/docs/annotation_guidelines.md
-2. Read the batch file {BATCH_CSV}. It has columns pair_id, composite. Each composite is a single JPEG with
+1. Read the guidelines in full: `docs/annotation_guidelines.md` (in the repository)
+2. Read the batch file {BATCH_CSV}. It has columns pair_id, composite (a path relative to the workspace, `$CPT_WORKSPACE`). Each composite is a single JPEG with
    PANEL A (first, left) and PANEL B (the next panel, right) from a US Golden Age comic.
 3. For EVERY row, in order, open the composite image with the Read tool and look at it. Read the lettering.
    Decide using ONLY what is visible in the two panels, following the guideline steps 0-5 in order.

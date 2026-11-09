@@ -2,11 +2,14 @@
 /STATUS.md
 /CLAUDE.md
 /docs/TEAM_ALLOCATION.md
+/docs/team/
 
 # ---- Python environment and caches ---------------------------------------------------------
 # .venv is a symlink to the external workspace; no trailing slash, or git would not match a symlink
 .venv
 venv/
+# default data workspace (panels, caches, model weights); may be a symlink, so no trailing slash
+/workspace
 __pycache__/
 *.py[cod]
 .pytest_cache/

@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from transition.labels import LABELS  # noqa: E402
-from transition.paths import ANN_DIR  # noqa: E402
+from transition.paths import ANN_DIR, WORKSPACE  # noqa: E402
 
 
 def main():
@@ -28,7 +28,7 @@ def main():
     for p in glob.glob(str(ANN_DIR / "batches" / "*_labels.csv")):
         for r in csv.DictReader(open(p)):
             llm[r["pair_id"]] = r.get("label", "")
-    items = [{"id": r["pair_id"], "img": "file://" + r["composite"],
+    items = [{"id": r["pair_id"], "img": (WORKSPACE / r["composite"]).resolve().as_uri(),
               "llm": llm.get(r["pair_id"], "") if args.show_llm else ""}
              for r in csv.DictReader(open(args.sample))]
     page = f"""<!doctype html><meta charset=utf-8><title>McCloud transition annotation</title>

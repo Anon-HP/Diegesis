@@ -26,7 +26,9 @@ from PIL import Image, ImageDraw
 ROOT = Path(__file__).resolve().parents[1]
 PY = sys.executable
 sys.path.insert(0, str(ROOT / "src"))
-REAL_HF = "/home/anonhp/Hard-Drive/comic-transition-workspace/hf_cache"
+from transition.paths import PANELS_DIR as REAL_PANELS, WORKSPACE as REAL_WS  # noqa: E402
+
+REAL_HF = str(REAL_WS / "hf_cache")
 
 
 def make_workspace(tmp: Path, n_books=8, n_pages=3, n_panels=4, text=False):
@@ -129,7 +131,7 @@ def test_ocr_cache_interrupt_resume(tmp_path):
 
     from transition.ocr import ocr_image
 
-    real = Path("/home/anonhp/Hard-Drive/comic-transition-workspace/data/comics/panels_dl/raw_panel_images/1406")
+    real = REAL_PANELS / "1406"
     if not real.is_dir():
         pytest.skip("real lettered panels needed (synthetic captions are not read reliably by tesseract)")
     env = make_workspace(tmp_path, n_books=2, n_pages=2, n_panels=4)
@@ -256,7 +258,8 @@ def test_sampler_interrupt_resume(tmp_path):
     rows = list(csv.DictReader(open(tmp_path / "ann" / "sample_t.csv")))
     assert len(rows) >= n_first
     for row in rows:
-        with Image.open(row["composite"]) as im:
+        assert not Path(row["composite"]).is_absolute()
+        with Image.open(tmp_path / "ws" / row["composite"]) as im:
             im.load()
 
 
